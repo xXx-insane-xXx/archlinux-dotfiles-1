@@ -26,7 +26,9 @@ call plug#begin()
 
 call plug#end()
 
-colorscheme wal
+"colorscheme wal
+colorscheme moonfly
+
 
 " Nerd tree
 nnoremap <leader>n :NERDTreeFocus<CR>
@@ -36,6 +38,7 @@ nnoremap <C-f> :NERDTreeFind<CR>
 let g:NERDTreeFileLines = 1
 
 
+" Indent Line
 let g:indentLine_enabled = 1
 let g:indentLine_setColors = 1 
 let g:indentLine_char = '|'
