@@ -6,7 +6,7 @@ wallpaper_dir="$HOME/Main/Wallpapers"
 # Function to apply the selected wallpaper
 apply_wallpaper() {
     wal -i "$selected"  # Set the wallpaper using wal -i
-    feh --bg-scale "$selected"  # Set the wallpaper using feh
+#    feh --bg-scale "$selected"  # Set the wallpaper using feh
 }
 
 # Function to select a wallpaper using fzf with catimg preview

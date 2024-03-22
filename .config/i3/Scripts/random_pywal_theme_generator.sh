@@ -4,4 +4,3 @@
 shufwallpaper=$(find ~/Main/Wallpapers/ -type f -name "*.jpg" -o -name "*.png" | shuf -n 1)
 
 feh --bg-scale $shufwallpaper
-wal -i $shufwallpaper

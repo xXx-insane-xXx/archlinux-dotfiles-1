@@ -172,7 +172,7 @@ client.background       $bg
 # #----i3Blocks---# #
 bar {
         status_command i3blocks -c ~/.config/i3/i3blocks/i3blocks.conf
-		font pango: Jetbrains Mono Bold 11
+		font pango: Iosevka Fixed Semibold 10 
 		separator_symbol "|"
 		colors {
 			background $bg
