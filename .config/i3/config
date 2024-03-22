@@ -156,7 +156,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # from the generated scheme.
 # NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
 # it fails to get colors from Xresources.
-set_from_resource $fg i3wm.color1 #f0f0f0
+set_from_resource $fg i3wm.color6 #f0f0f0
 set_from_resource $bg i3wm.color0 #f0f0f0
 
 # class                 border  	backgr. text indicator child_border
