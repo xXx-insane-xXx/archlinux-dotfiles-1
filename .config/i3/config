@@ -216,19 +216,24 @@ bindsym $mod+Shift+o resize shrink width 1 px or 1 ppt
 
 
 # #----Applications Key Binds----# #
+# Basic - Group 0
 bindsym $mod+Return exec --no-startup-id alacritty 
 bindsym $mod+shift+Return exec --no-startup-id alacritty -e tmux
 bindsym $mod+d exec --no-startup-id dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "#ffffff" -fn "Jetbrains Mono"
 bindsym $mod+Shift+semicolon exec --no-startup-id "i3lock -i ~/Main/Wallpapers/fori3lock/01-i301.png
 
+# Group 1
 #bindsym $mod+shift+M exec --no-startup-id "alacritty  --class floating_terminal -e ~/.config/i3/Scripts/fzf_theme_chooser.sh" 
 bindsym $mod+shift+M exec --no-startup-id ~/.config/i3/Scripts/sxiv_theme_chooser.sh
-
 bindsym $mod+shift+N exec --no-startup-id "~/.config/i3/Scripts/random_pywal_theme_generator.sh" 
 bindsym $mod+shift+a exec --no-startup-id ~/.config/i3/Scripts/toggle_alacritty_opacity.sh
+
+# Group 2
 bindsym Print exec --no-startup-id flameshot gui
 bindsym $mod+shift+b exec --no-startup-id boomer
 
+# Special very much (I love emacs)
+bindsym $mod+ctrl+Return exec --no-startup-id emacs
 
 
 # #---Autostart Applications---# #

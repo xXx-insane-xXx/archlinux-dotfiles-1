@@ -26,8 +26,8 @@ call plug#begin()
 
 call plug#end()
 
-"colorscheme wal
-colorscheme moonfly
+colorscheme wal
+"colorscheme moonfly
 
 
 " Nerd tree
