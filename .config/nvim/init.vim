@@ -16,7 +16,8 @@ call plug#begin()
     Plug 'folke/tokyonight.nvim',
     Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
     Plug 'dylanaraps/wal.vim'   
-    
+    Plug 'https://github.com/thimc/gruber-darker.nvim'
+
     Plug 'preservim/nerdtree'
 
 
@@ -26,9 +27,8 @@ call plug#begin()
 
 call plug#end()
 
-colorscheme wal
 "colorscheme moonfly
-
+colorscheme gruber-darker
 
 " Nerd tree
 nnoremap <leader>n :NERDTreeFocus<CR>
