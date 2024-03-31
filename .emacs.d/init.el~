@@ -1,5 +1,9 @@
 (package-initialize)
 
+;; grep-a-lot package (melpa)
+(require 'grep-a-lot)
+(grep-a-lot-setup-keys)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -12,23 +16,26 @@
  '(display-line-numbers 'relative)
  '(global-hl-indent-scope-mode t)
  '(global-visual-line-mode nil)
- '(global-word-wrap-whitespace-mode nil)
- '(highlight-indent-guides-auto-enabled t)
+ '(highlight-indent-guides-auto-enabled nil)
  '(highlight-indent-guides-method 'bitmap)
  '(ido-enable-flex-matching t)
  '(ido-mode 'both nil (ido))
  '(nyan-animate-nyancat t)
+ '(nyan-mode t)
  '(nyan-wavy-trail t)
+ '(org-pretty-entities t)
  '(package-archives
    '(("gnu" . "https://elpa.gnu.org/packages/")
      ("nongnu" . "https://elpa.nongnu.org/nongnu/")
      ("melpa" . "https://melpa.org/packages/")))
  '(package-selected-packages
-   '(ace-mc emmet-mode nyan-mode doom-themes gruber-darker-theme spacemacs-theme zenburn-theme gruvbox-theme solarized-theme org cyberpunk-theme))
+   '(grep-a-lot ace-mc emmet-mode nyan-mode doom-themes gruber-darker-theme spacemacs-theme zenburn-theme gruvbox-theme solarized-theme org cyberpunk-theme))
  '(python-indent-def-block-scale 4)
+ '(server-mode t)
  '(tool-bar-mode nil)
  '(truncate-lines t)
  '(uniquify-buffer-name-style 'post-forward nil (uniquify))
+ '(whitespace-style '(face trailing))
  '(word-wrap t)
  '(word-wrap-by-category t))
 (custom-set-faces
@@ -40,8 +47,8 @@
  '(highlight-indent-guides-character-face ((t nil)))
  '(highlight-indent-guides-odd-face ((t nil)))
  '(hl-indent-scope-even-face ((t (:background "#414141"))))
- '(hl-indent-scope-odd-face ((t (:background "#2c2c2c")))))
-
+ '(hl-indent-scope-odd-face ((t (:background "#2c2c2c"))))
+ '(whitespace-big-indent ((t nil))))
 
 
 ;; NOTES

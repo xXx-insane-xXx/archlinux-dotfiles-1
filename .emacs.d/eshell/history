@@ -1,27 +1,9 @@
-python cube-root-03.py 
-python cube-root-03.py 
 exit
-python cube-root-03.py 
+python ps1b.py 
 exit
-python cube-root-03.py 
-exit
-python cube-root-03.py 
-python cube-root-03.py 
-python cube-root-03.py 
-python cube-root-03.py 
-python cube-root-03.py 
-exi
-exit
-python cube-root-03.py 
-exit
-python cube-root-03.py 
-exit
-python cube-root-03.py 
-exit
-python ps1a.py 
-exit
-python ps1a.py 
-python ps1a.py 
+python ps1b.py 
+python ps1b.py 
+python ps1b.py 
 exit
 python ps1a.py 
 exit
@@ -29,100 +11,118 @@ python ps1a.py
 exit
 python ps1a.py 
 exit
+120000
 python ps1a.py 
+python ps1b.py 
 exit
-python ps1a.py 
+python ps1b.py 
+clear
+python ps1b.py 
 exit
-python ps1a.py 
+python ps1b.py 
+python ps1b.py 
 exit
-python ps1a.py 
-python ps1a.py 
-exit
-python ps1a.py 
-exit
-python ps1a.py 
-exit
-python ps1a.py 
-exit
-python ps1a.py 
+gcc linear_search_v2.c 
 exit
 exit
-python ps1a.py 
+gcc linear_search_v2.c 
 exit
-python ps1a.py 
+gcc linear_search_v2.c 
 exit
-python ps1a.py 
+gcc linear_search_v2.c 
 exit
-python ps1a.py 
+gcc linear_search_v2.c 
 exit
-python ps1a.py 
+gcc linear_search_v2.c 
 exit
-python ps1a.py 
+gcc linear_search_v2.c 
 exit
-python ps1a.py 
+gcc linear_search_v2.c 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
 exit
-python ps1a.py 
+gcc phone_book.c 
 exit
-python ps1a.py 
-python ps1a.py 
+gcc phone_book.c 
 exit
-python ps1a.py 
+gcc phone_book.c 
 exit
-python ps1a.py 
-python ps1a.py 
+gcc phone_book.c 
 exit
-python bisection_search.py 
+gcc phone_book.c 
+./a.out 
+gcc phone_book.c 
 exit
-python bisection_search.py 
-python bisection_search.py 
-python bisection_search.py 
+gcc phone_book.c 
+./
+s
+s
+./a.out 
+./a.out 
 exit
-python bisection_search.py 
-python bisection_search.py 
+gcc phone_book.c 
+./a.out 
 exit
-python bisection_search.py 
-python bisection_search.py 
+gcc phone_book.c 
 exit
-python bisection_search.py 
+gcc phone_book.c 
+./a.out 
 exit
-python bisection_search.py 
+gcc phone_book.c 
 exit
-python bisection_search.py 
+gcc phone_book.c 
+./a.out 
+./a.out 
+./a.out 
 exit
-python bisection_search.py 
-eixt
+gcc phone_book.c 
 exit
-eixt
-python bisection_search.py 
+gcc phone_book.c 
 exit
-python bisection_search.py 
+gcc phone_book.c 
 exit
-python bisection_search.py 
+gcc phone_book.c 
+./a.out 
 exit
-python bisection_search.py 
-python bisection_search.py 
+gcc selection_sort.c 
 exit
-python bisection_search.py 
-python bisection_search.py 
-python bisection_search.py 
-python bisection_search.py 
-python bisection_search.py 
-python bisection_search.py 
+gcc selection_sort.c 
 exit
-python bisection_search.py 
+gcc selection_sort.c 
 exit
-python bisection_search.py 
-python bisection_search.py 
-python bisection_search.py 
-python bisection_search.py 
-python bisection_search.py 
+gcc selection_sort.c 
+./a.out 
 exit
-python bisection_search.py 
+./a.out 
+gcc selection_sort.c 
+./a.out 
 exit
-python bisection_search.py 
+gcc selection_sort.c 
+./a.out 
 exit
+./a.out 
+gcc selection_sort.c 
 exit
-python bisection_search.py 
-python bisection_search.py 
-python bisection_search.py 
+gcc selection_sort.c 
+./a.out 
 exit
+./a.out 
+gcc selection_sort.c 
+./a.out 
+exit
+gcc selection_sort.c 
+./a.out 
+exit
+ls
+ls
+ls -la
+clear
+ls
+cd ~/
+clear
+(+ 2 2)
+sl
+vim
+sl
