@@ -18,6 +18,7 @@
  '(global-visual-line-mode nil)
  '(highlight-indent-guides-auto-enabled nil)
  '(highlight-indent-guides-method 'bitmap)
+ '(horizontal-scroll-bar-mode nil)
  '(ido-enable-flex-matching t)
  '(ido-mode 'both nil (ido))
  '(nyan-animate-nyancat t)
@@ -31,6 +32,7 @@
  '(package-selected-packages
    '(grep-a-lot ace-mc emmet-mode nyan-mode doom-themes gruber-darker-theme spacemacs-theme zenburn-theme gruvbox-theme solarized-theme org cyberpunk-theme))
  '(python-indent-def-block-scale 4)
+ '(scroll-bar-mode nil)
  '(server-mode t)
  '(tool-bar-mode nil)
  '(truncate-lines t)

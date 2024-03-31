@@ -18,6 +18,7 @@
  '(global-visual-line-mode nil)
  '(highlight-indent-guides-auto-enabled nil)
  '(highlight-indent-guides-method 'bitmap)
+ '(horizontal-scroll-bar-mode nil)
  '(ido-enable-flex-matching t)
  '(ido-mode 'both nil (ido))
  '(nyan-animate-nyancat t)
