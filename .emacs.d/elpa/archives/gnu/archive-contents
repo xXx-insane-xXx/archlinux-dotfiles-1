@@ -134,13 +134,16 @@
 		  ("Gregory Chamberlain" . "greg@cosine.blue"))
 		 (:commit . "0cecd81e7f6631c91ed0437d801517677e018c1d"))])
  (all .
-      [(1 0)
-       nil "Edit all lines matching a given regexp" single
-       ((:url . "http://elpa.gnu.org/packages/all.html")
-	(:keywords "matching")
+      [(1 1)
+       ((emacs
+	 (24 3)))
+       "Edit all lines matching a given regexp" tar
+       ((:keywords "matching")
+	(:maintainer "Per Abrahamsen" . "per.abrahamsen@gmail.com")
 	(:authors
 	 ("Per Abrahamsen" . "per.abrahamsen@gmail.com"))
-	(:maintainer "Per Abrahamsen" . "per.abrahamsen@gmail.com"))])
+	(:url . "https://elpa.gnu.org/packages/all.html")
+	(:commit . "55aa1ac8853d81040aec0b3a2bd43200923146fd"))])
  (altcaps .
 	  [(1 2 0)
 	   ((emacs
@@ -400,7 +403,7 @@
 	       (:url . "https://elpa.gnu.org/packages/breadcrumb.html")
 	       (:commit . "ff5fb77e2556c42aee9f1131f824bdfb955d861f"))])
  (brief .
-	[(5 90)
+	[(5 91)
 	 ((nadvice
 	   (0 3))
 	  (cl-lib
@@ -411,7 +414,7 @@
 	  (:authors
 	   ("Luke Lee" . "luke.yx.lee@gmail.com"))
 	  (:url . "https://elpa.gnu.org/packages/brief.html")
-	  (:commit . "30c5bf48784a7de2e18069a1065fa14a6ff843fe"))])
+	  (:commit . "1d1d8fe291d785512eaa746dc2e5cd6dac96585c"))])
  (buffer-env .
 	     [(0 6)
 	      ((emacs
@@ -714,7 +717,7 @@
 		      ("Jackson Ray Hamilton" . "jackson@jacksonrayhamilton.com"))
 		     (:commit . "1b30a28857727202d1f6a027f83ad66151fb1e92"))])
  (corfu .
-	[(1 2)
+	[(1 3)
 	 ((emacs
 	   (27 1))
 	  (compat
@@ -725,7 +728,7 @@
 	  (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	  (:authors
 	   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	  (:commit . "b48d3017a47706198e04440cc1b3483bdf646771"))])
+	  (:commit . "6088f0550dc8f10f5bcf6f24d35ce24159b01b43"))])
  (coterm .
 	 [(1 6)
 	  ((emacs
@@ -837,7 +840,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "836b19b39651419876e65cdb1a91e3eef83cc4e7"))])
  (dape .
-       [(0 9 0)
+       [(0 10 0)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -845,7 +848,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "623fb82ccf680400f897a36646b0ea6ee6436137"))])
+	 (:commit . "a5c9d468c1e49e533f1146980fa86488bbe3a54e"))])
  (darkroom .
 	   [(0 3)
 	    ((cl-lib
@@ -1118,7 +1121,7 @@
 	    (:url . "https://elpa.gnu.org/packages/docbook.html")
 	    (:commit . "a59f87c0dc04bcfcf9f55a124658c2e7a585dbd2"))])
  (drepl .
-	[(0 1)
+	[(0 2)
 	 ((emacs
 	   (29 1))
 	  (comint-mime
@@ -1129,7 +1132,7 @@
 	  (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
 	  (:authors
 	   ("Augusto Stoffel" . "arstoffel@gmail.com"))
-	  (:commit . "0f3cb40bab1ef42d080c1e2cd5eae124f7e5cf80"))])
+	  (:commit . "fc0b28b8b281899c2f00461bf9e83caf13330b54"))])
  (dts-mode .
 	   [(1 0)
 	    ((emacs
@@ -1300,7 +1303,7 @@
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
 		     (:commit . "70e38dbfa8f4acbdebfd0f417410d99f5031e05f"))])
  (ellama .
-	 [(0 8 13)
+	 [(0 9 0)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1313,7 +1316,7 @@
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "b94d5952d4e36e1caeef5ac0b3ecd6d89009082b"))])
+	   (:commit . "a931224a0d096938f912da7a125fbd569cec6251"))])
  (emacs-gc-stats .
 		 [(1 4 2)
 		  ((emacs
@@ -1882,13 +1885,13 @@
 	     (:url . "https://elpa.gnu.org/packages/greenbar.html")
 	     (:commit . "9526f29d073c533c3e54f0a7597eef1587ffb99e"))])
  (gtags-mode .
-	     [(1 1)
+	     [(1 2)
 	      ((emacs
 		(28)))
 	      "GNU Global integration with xref, project and imenu." tar
 	      ((:url . "https://github.com/Ergus/gtags-mode")
 	       (:keywords "xref" "project" "imenu" "gtags" "global")
-	       (:commit . "4e0a03dc42dacb0d03c82bce479f765ca2efca52"))])
+	       (:commit . "3c685185625e03343c995974ee1d026c9ef808c4"))])
  (guess-language .
 		 [(0 0 1)
 		  ((cl-lib
@@ -2151,7 +2154,7 @@
 		(:url . "https://elpa.gnu.org/packages/jgraph-mode.html")
 		(:commit . "4e13f89fe8837b84d40b969e6a5431816180a747"))])
  (jinx .
-       [(1 4)
+       [(1 5)
 	((emacs
 	  (27 1))
 	 (compat
@@ -2162,7 +2165,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "b2ef3af2857896e20cff0488c46a4bfcfee39ecc"))])
+	 (:commit . "a3d69abcb44555ddf5dbf03eee3c6188a456eceb"))])
  (jit-spell .
 	    [(0 4)
 	     ((emacs
@@ -2470,7 +2473,7 @@
 	(:url . "https://elpa.gnu.org/packages/map.html")
 	(:commit . "9da2efb670574b473ab864ae0456b4f1b38e680b"))])
  (marginalia .
-	     [(1 5)
+	     [(1 6)
 	      ((emacs
 		(27 1))
 	       (compat
@@ -2484,7 +2487,7 @@
 	       (:authors
 		("Omar Antolín Camarena" . "omar@matem.unam.mx")
 		("Daniel Mendler" . "mail@daniel-mendler.de"))
-	       (:commit . "98f6e58c12d57283bd7c1cb241664c966dc38ac3"))])
+	       (:commit . "58eb5fd6e5cc21b12c5455ae69e7ae93579647bc"))])
  (markchars .
 	    [(0 2 2)
 	     nil "Mark chars fitting certain characteristics" tar
@@ -2748,13 +2751,13 @@
 	   (:url . "https://elpa.gnu.org/packages/nlinum.html")
 	   (:commit . "99d0fef381e9f44a3fdcf66f28c28109a7cdaf45"))])
  (notes-mode .
-	     [(1 30)
+	     [(1 31)
 	      nil "Indexing system for on-line note-taking" tar
-	      ((:maintainer nil . "johnh@isi.edu")
+	      ((:url . "https://ant.isi.edu/~johnh/SOFTWARE/NOTES_MODE/")
+	       (:maintainer "John Heidemann" . "johnh@isi.edu")
 	       (:authors
-		(nil . "johnh@isi.edu"))
-	       (:url . "https://elpa.gnu.org/packages/notes-mode.html")
-	       (:commit . "3afb72a580149460190cb9dd8e18b274a4e24e1e"))])
+		("John Heidemann" . "johnh@isi.edu"))
+	       (:commit . "2a25d79f7e5d9ab7298ba40e11e78d1f2ded06d2"))])
  (notmuch-indicator .
 		    [(1 1 0)
 		     ((emacs
@@ -2871,7 +2874,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "3847f311077efa17951a786d2759f2639c5f43c8"))])
  (org .
-      [(9 6 24)
+      [(9 6 25)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2880,7 +2883,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "5bdfc02c6fa1b9ad4f075ac1ad1e4086ead310db"))])
+	(:commit . "9bff93f19a8ca565534f02ae5aa70b16af939cf2"))])
  (org-contacts .
 	       [(1 1)
 		((emacs
@@ -3149,7 +3152,7 @@
 	     (:url . "https://elpa.gnu.org/packages/pinentry.html")
 	     (:commit . "ef0d62bba29dfab07624d030032ec0f67d34e865"))])
  (plz .
-      [(0 7 2)
+      [(0 7 3)
        ((emacs
 	 (26 3)))
        "HTTP library" tar
@@ -3158,7 +3161,7 @@
 	(:maintainer "Adam Porter" . "adam@alphapapa.net")
 	(:authors
 	 ("Adam Porter" . "adam@alphapapa.net"))
-	(:commit . "e98989a1816458d2940f99beda2b85c37f6b1f3e"))])
+	(:commit . "1b66fa907d6dbc64c6a01b96d58261f67a09200e"))])
  (plz-see .
 	  [(0 1)
 	   ((emacs
@@ -3714,13 +3717,13 @@
 		     (:url . "https://elpa.gnu.org/packages/slime-volleyball.html")
 		     (:commit . "361d22bba0b03cd81331439c97f84583dd87c752"))])
  (sm-c-mode .
-	    [(1 1)
+	    [(1 2)
 	     nil "C major mode based on SMIE" tar
 	     ((:maintainer "Stefan Monnier" . "monnier@iro.umontreal.ca")
 	      (:authors
 	       ("Stefan Monnier" . "monnier@iro.umontreal.ca"))
 	      (:url . "https://elpa.gnu.org/packages/sm-c-mode.html")
-	      (:commit . "3ef465d3ebed319fdaa3bd650bc19eb11c786fe5"))])
+	      (:commit . "a56142cb82d3390faa3dbd0658d65fe06822206d"))])
  (smalltalk-mode .
 		 [(4 0)
 		  nil "Major mode for the GNU Smalltalk programming language" tar
@@ -4161,7 +4164,7 @@
 	      ("Trevor Edwin Pogue" . "trevor.pogue@gmail.com"))
 	     (:commit . "33c2a6f0a11d1d88cdb2065c5a897e33507f4c86"))])
  (tramp .
-	[(2 6 2 2)
+	[(2 6 3)
 	 ((emacs
 	   (26 1)))
 	 "Transparent Remote Access, Multiple Protocol" tar
@@ -4170,7 +4173,7 @@
 	  (:maintainer "Michael Albinus" . "michael.albinus@gmx.de")
 	  (:authors
 	   ("Kai Großjohann" . "kai.grossjohann@gmx.net"))
-	  (:commit . "cab3f20dcab56c116d0694ce6a5c2985616ae044"))])
+	  (:commit . "3d3b95bd87d858092ee33ed4f5c7acfbf44a48f2"))])
  (tramp-nspawn .
 	       [(1 0 1)
 		((emacs

@@ -1,128 +1,128 @@
+python prac_1.py 
 exit
-python ps1b.py 
+python prac_1.py 
 exit
-python ps1b.py 
-python ps1b.py 
-python ps1b.py 
+python prac_1.py 
 exit
-python ps1a.py 
-exit
-python ps1a.py 
-exit
-python ps1a.py 
-exit
-120000
-python ps1a.py 
-python ps1b.py 
-exit
-python ps1b.py 
-clear
-python ps1b.py 
-exit
-python ps1b.py 
-python ps1b.py 
-exit
-gcc linear_search_v2.c 
+python prac_1.py 
 exit
 exit
-gcc linear_search_v2.c 
+python prac_1.py 
 exit
-gcc linear_search_v2.c 
+python prac_1.py 
 exit
-gcc linear_search_v2.c 
+python prac_1.py 
 exit
-gcc linear_search_v2.c 
+python prac_1.py 
 exit
-gcc linear_search_v2.c 
+python prac_1.py 
 exit
-gcc linear_search_v2.c 
+python prac_1.py 
 exit
-gcc linear_search_v2.c 
-./a.out 
-./a.out 
-./a.out 
-./a.out 
+python prac_1.py 
 exit
-gcc phone_book.c 
+python prac_1.py 
 exit
-gcc phone_book.c 
+python prac_1.py 
 exit
-gcc phone_book.c 
+python prac_1.py 
 exit
-gcc phone_book.c 
+python prac_1.py 
 exit
-gcc phone_book.c 
-./a.out 
-gcc phone_book.c 
+python prac_1.py 
 exit
-gcc phone_book.c 
-./
-s
-s
-./a.out 
-./a.out 
+python prac_1.py 
 exit
-gcc phone_book.c 
-./a.out 
+python prac_1.py 
 exit
-gcc phone_book.c 
+python prac_1.py 
 exit
-gcc phone_book.c 
-./a.out 
+python prac_1.py 
 exit
-gcc phone_book.c 
+python prac_1.py 
 exit
-gcc phone_book.c 
-./a.out 
-./a.out 
-./a.out 
+python prac_1.py 
 exit
-gcc phone_book.c 
+python prac_1.py 
 exit
-gcc phone_book.c 
+python prac_1.py 
 exit
-gcc phone_book.c 
+python prac_1.py 
 exit
-gcc phone_book.c 
-./a.out 
+python prac_1.py 
 exit
-gcc selection_sort.c 
+python prac_1.py 
 exit
-gcc selection_sort.c 
+python prac_1.py 
 exit
-gcc selection_sort.c 
+python prac_1.py 
 exit
-gcc selection_sort.c 
-./a.out 
+python prac_1.py 
 exit
-./a.out 
-gcc selection_sort.c 
-./a.out 
+python prac_1.py 
 exit
-gcc selection_sort.c 
-./a.out 
-exit
-./a.out 
-gcc selection_sort.c 
-exit
-gcc selection_sort.c 
-./a.out 
-exit
-./a.out 
-gcc selection_sort.c 
-./a.out 
-exit
-gcc selection_sort.c 
-./a.out 
+python prac_1.py 
 exit
 ls
+mv * intro-to-css/
 ls
-ls -la
-clear
+mkdir the-cascade
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python main.py 
+exit
+python first.ins
+exit
+python first.ins
+python interpretor.py first.ins
+exit
+python interpretor.py first.ins
+python interpretor.py ./first.ins
 ls
-cd ~/
-clear
-(+ 2 2)
-sl
-vim
-sl
+python interpretor.py first.ins
+exit
+python interpretor.py first.ins
+nvim first.ins 
+exit
+javac random.java 
+java random
+java random
+java random
+java random
+java random
+java random
+exit
+java random
+javac random,java
+javac random.java
+java random
+java random
+java random
+java random
+java random
+java random
+java random
+exit
