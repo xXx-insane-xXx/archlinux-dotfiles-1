@@ -7,25 +7,24 @@ size = 12.0
 
 [font.bold]
 #family = "Jetbrains Mono"
-family = "Iosevka Fixed"
+family = "Iosevka Nerd Font Mono"
 #family = "VictorMono Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
 #family = "Jetbrains Mono"
-family = "Iosevka Fixed"
+family = "Iosevka Nerd Font Mono"
 #family = "VictorMono Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
 #family = "Jetbrains Mono"
-family = "Iosevka Fixed"
-#family = "VictorMono Nerd Font Mono"
+family = "VictorMono Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
 #family = "Jetbrains Mono"
-family = "Iosevka Fixed"
+family = "Iosevka Nerd Font Mono"
 #family = "VictorMono Nerd Font Mono"
 style = "Regular"
 

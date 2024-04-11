@@ -1,68 +1,3 @@
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
-python prac_1.py 
-exit
 ls
 mv * intro-to-css/
 ls
@@ -125,4 +60,69 @@ java random
 java random
 java random
 java random
+exit
+python test.py first.ins 
+exit
+python test.py second.ins 
+exit
+python test.py second.ins 
+python test.py second.ins 
+python interpretor.py second.ins 
+exit
+python interpretor.py second.ins 
+exit
+python interpretor.py second.ins 
+python interpretor.py first.ins 
+exit
+cpp test.c 
+exit
+cpp test.c 
+clear
+exit
+gcc main.c 
+./a.out 
+exit
+./a.out 
+gcc main.c 
+./a.out 
+./a.out 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+./a.out 
+exit
+gcc main.c 
+exit
+gcc main.c 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+exit
+./a.out 
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc main.c 
+./a.out 
+exit
+gcc ma
+gcc main.c
 exit
