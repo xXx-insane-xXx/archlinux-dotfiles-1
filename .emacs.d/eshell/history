@@ -1,7 +1,3 @@
-ls
-mv * intro-to-css/
-ls
-mkdir the-cascade
 exit
 python main.py 
 exit
@@ -125,4 +121,8 @@ gcc main.c
 exit
 gcc ma
 gcc main.c
+exit
+ls
+mkdir 01
+mkdir 02
 exit

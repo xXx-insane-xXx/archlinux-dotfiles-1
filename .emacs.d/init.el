@@ -48,7 +48,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :extend nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight regular :height 143 :width normal :foundry "UKWN" :family "Iosevka Nerd Font Mono"))))
+ '(default ((t (:inherit nil :extend nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight regular :height 143 :width normal :foundry "UKWN" :family "Iosevka Fixed"))))
  '(highlight-indent-guides-character-face ((t nil)))
  '(highlight-indent-guides-odd-face ((t nil)))
  '(hl-indent-scope-even-face ((t (:background "#414141"))))
