@@ -164,30 +164,23 @@ set $bg #000000
 
 # class                 border  	backgr.     text    indicator   child_border
 client.focused          $fg         $bg         $fg     $fg         $fg 
-#client.focused_inactive $bg     	$bg         $fg     $bg         $bg
-#client.unfocused        #FFFFFF     #222222    $fg     $bg         #00000
-#client.urgent           $bg     	$bg         $fg     $bg         $bg
-#client.placeholder      $bg     	$bg         $fg     $bg         $bg
-
-#client.background       $bg
 
 
 # #----i3Blocks---# #
-bar {
+bar
+{
         status_command i3blocks -c ~/.config/i3/i3blocks/i3blocks.conf
 		font pango: Iosevka Nerd Font SemiBold 10 
 		separator_symbol "|"
-		colors {
+		colors
+		{
 			background $bg
 			statusline $fg
 			separator $fg
 
 
-		focused_workspace  $fg $fg #000000
-        active_workspace   $fg $fg #000000
-        inactive_workspace $bg $bg #888888
-        urgent_workspace   #2f343a #900000 #ffffff
-        binding_mode       #2f343a #900000 #ffffff
+		focused_workspace  $fg $fg $bg
+        	inactive_workspace $bg $bg $fg 
 		}
 }
 
@@ -222,7 +215,7 @@ bindsym $mod+Shift+o resize shrink width 1 px or 1 ppt
 # Basic - Group 0
 bindsym $mod+Return exec --no-startup-id alacritty 
 bindsym $mod+shift+Return exec --no-startup-id alacritty -e tmux
-bindsym $mod+d exec --no-startup-id dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "#ffffff" -fn "Jetbrains Mono"
+bindsym $mod+d exec --no-startup-id dmenu_run -fn "Iosevka Fixed" -nb "$fg" -nf "$bg" -sb "$bg" -sf "#ffffff" 
 bindsym $mod+Shift+semicolon exec --no-startup-id "i3lock -i ~/Main/Wallpapers/fori3lock/01-i301.png
 
 # Group 1

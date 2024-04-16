@@ -23,6 +23,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-06/"
+ "/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-05/prac/"
+ "/home/insane/Main/OSSU/programming-languages/PASCAL/01-basics/02/"
  "/home/insane/Main/OSSU/programming-languages/PASCAL/basics/01/"
  "/home/insane/Main/OSSU/programming-languages/PASCAL/program-and-seq/HouseDrawing/"
  "/home/insane/Main/OSSU/programming-languages/PASCAL/program-and-seq/"
@@ -65,25 +68,37 @@
 
 ;; ----- ido-work-file-list -----
 (
- "helloworld.pas"
+ "01.py"
+ "main.py"
  "main.pas"
+ "helloworld.pas"
  "helloworld.pp"
  "#helloworld.fpc#"
  "helloworld.fpc"
  "main.c"
  "pun.c"
  "programming in c (4th edition)  - stephen g. kochan(1).pdf"
- "test.py"
- "second.ins"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/insane/Main/OSSU/programming-languages/C#/tutorials/09-sorting-and-searching/" (26141 22215 919522 774000) "./" "../")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-06/" (26141 9167 317196 603000) "./" "../")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-05/prac/" (26141 2927 371569 669000) "./" "../")
+
+ ("/home/insane/Main/OSSU/programming-languages/" (26140 23501 252590 263000) "some-foundations/" "C#/" "./" "PASCAL/" "../" "C/" "java/")
+
+ ("/home/insane/" (26141 2299 81677 539000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".templateengine/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".bash_history" ".xinitrc" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" "README.md" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".lazarus/" ".npm/" ".gtkrc-2.0" "Desktop/" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".wget-hsts" ".mozilla/" ".zcompdump" ".nimble/" ".dmrc" ".dotfiles/" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".fehbg" ".ServiceHub/" ".gnupg/")
+
+ ("/home/insane/Main/OSSU/programming-languages/PASCAL/01-basics/02/" (26138 29206 175995 100000) ".#main.pas" "./" "#main.pas#" "main.pas" "../")
+
+ ("/home/insane/Main/OSSU/programming-languages/PASCAL/" (26137 63375 333751 403000) "./" "02-intro/" "01-basics/" "../" "03-program-and-seq/")
+
  ("/home/insane/Main/OSSU/programming-languages/PASCAL/01-basics/01-helloworld/" (26137 62820 583655 274000) "./" "helloworld.pas" "helloworld" "../" "helloworld.o")
 
  ("/home/insane/Main/OSSU/programming-languages/PASCAL/basics/01/" (26137 62714 505149 911000) "./" "../")
-
- ("/home/insane/Main/OSSU/programming-languages/" (26135 18511 0 0) "some-foundations/" "./" "PASCAL/" "../" "C/" "java/")
 
  ("/home/insane/Main/OSSU/" (26133 19229 0 0) "./" "intro-cs/" "programming-languages/" "../")
 
@@ -91,15 +106,11 @@
 
  ("/home/" (26136 32718 611789 437000) "./" "insane/" "../")
 
- ("/home/insane/" (26137 60776 574474 733000) ".viminfo" ".zshrc" ".ssh/" ".var/" ".pki/" "Pictures/" "Music/" ".bash_history" ".xinitrc" ".cache/" ".Xresources" "./" ".themes/" ".config/" ".Xauthority" "README.md" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".lazarus/" ".npm/" "Desktop/" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".mozilla/" ".zcompdump" ".nimble/" ".dmrc" ".dotfiles/" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" "Stuff/" ".fehbg" ".gnupg/")
-
  ("/home/insane/.config/libvirt/" (26137 62211 913958 31000) "./" "libvirt.conf" "qemu/" "../" "secrets/")
 
  ("/home/insane/.config/" (26135 62265 0 0) "cava/" "gtk-4.0/" "protonvpn/" "tmux/" "yay/" "procps/" "sublime-text/" "gtk-3.0/" "libvirt/" "alacritty/" "transmission/" "xchm.conf" "./" "nitrogen/" "polybar/" "systemd/" "vim/" "BraveSoftware/" "gromit-mpx.ini" "dunst/" "mpv/" "chromium/" "xfce4/" "sxiv/" "libfm/" "i3/" "spotify/" ".filen.trash.local/" "ranger/" "gtk-2.0/" "kitty/" "onlyoffice/" "QtProject.conf" "Code/" "caja/" "nvim/" "dconf/" "picom/" "mypaint/" "chromium-flags.conf" "htop/" "pavucontrol.ini" "pulse/" "Proton/" "filen-desktop/" "../" "qutebrowser/" "pcmanfm/" "neofetch/" "Thunar/" "matplotlib/" "window-geometry.conf")
 
  ("/home/insane/Main/OSSU/programming-languages/PASCAL/intro/" (26135 19187 203384 677000) "../" "./" "helloworld.pas" "helloworld" "helloworld.o")
-
- ("/home/insane/Main/OSSU/programming-languages/PASCAL/" (26135 21562 515207 42000) "../" "./" "intro/" "program-and-seq/")
 
  ("/home/insane/Main/OSSU/programming-languages/PASCAL/program-and-seq/HouseDrawing/" (21734 65334 0 0) "build.sh" "../" "./" "Icon" "lib/" "run.sh" "clean.sh" "build.cmd" "src/" "Resources/")
 

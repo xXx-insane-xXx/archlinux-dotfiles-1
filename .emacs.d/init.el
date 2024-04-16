@@ -32,7 +32,7 @@
      ("nongnu" . "https://elpa.nongnu.org/nongnu/")
      ("melpa" . "https://melpa.org/packages/")))
  '(package-selected-packages
-   '(lsp-java obsidian obsidian-theme sublimity pulsar adaptive-wrap grep-a-lot ace-mc emmet-mode nyan-mode doom-themes gruber-darker-theme spacemacs-theme zenburn-theme gruvbox-theme solarized-theme org cyberpunk-theme))
+   '(omnisharp lsp-java obsidian obsidian-theme sublimity pulsar adaptive-wrap grep-a-lot ace-mc emmet-mode nyan-mode doom-themes gruber-darker-theme spacemacs-theme zenburn-theme gruvbox-theme solarized-theme org cyberpunk-theme))
  '(python-indent-def-block-scale 4)
  '(scroll-bar-mode nil)
  '(server-mode t)

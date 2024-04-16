@@ -20,7 +20,7 @@ PS1='[\u@\h \W]$(parse_git_branch)\[\][$]\n~> '
 
 
 ##### PATH #####
-# export PATH=:$PATH
+export PATH="$PATH:/home/insane/.dotnet/tools/"
 
 ##### pywall #####
 
