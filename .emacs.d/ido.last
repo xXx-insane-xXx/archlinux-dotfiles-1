@@ -16,13 +16,15 @@
  ("/home/insane/Main/the-odin-project/foundations-course/" . "repos/")
  ("/home/insane/Main/the-odin-project/" . "foundations-course/")
  ("/home/insane/Main/OSSU/intro-cs/" . "mit-6.0001/")
- ("/home/insane/Main/OSSU/" . "programming-languages/")
+ ("/home/insane/Main/OSSU/" . "intro-cs/")
  ("/home/insane/Main/" . "OSSU/")
  ("/home/insane/" . "Main/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/insane/Main/OSSU/intro-cs/recursion/"
+ "/home/insane/Main/OSSU/"
  "/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-06/"
  "/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-05/prac/"
  "/home/insane/Main/OSSU/programming-languages/PASCAL/01-basics/02/"
@@ -68,6 +70,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "stack.c"
  "01.py"
  "main.py"
  "main.pas"
@@ -77,22 +80,77 @@
  "helloworld.fpc"
  "main.c"
  "pun.c"
- "programming in c (4th edition)  - stephen g. kochan(1).pdf"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/insane/" (26143 61835 312813 296000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".templateengine/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".bash_history" ".xinitrc" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" "README.md" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".lazarus/" ".npm/" "Library/" ".gtkrc-2.0" "Desktop/" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".wget-hsts" ".mozilla/" ".zcompdump" ".nimble/" ".dmrc" ".dotfiles/" ".nvidia-settings-rc" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".fehbg" ".ServiceHub/" ".gnupg/")
+
+ ("/home/insane/Main/programming/cs50/week3/" (26120 58521 0 0) "binary_search.c" "phone_book.c~" "linear_search_v2.c~" "./" "linear_search.c~" "selection_sort.c" "main.c" "linear_search.c" "phone_book.c" "a.out" "../" "main" "selection_sort.c~" "Makefile" "linear_search_v2.c")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/ps01/" (26124 48576 0 0) "ps1a.py" "./" "ps1c.py" "ps1b.py" "../" "ps1.pdf")
+
+ ("/home/insane/Main/programming/cse-practice/" (26124 48576 0 0) "./" "fib.py" "rev-fib.py" "base-conversion.py" "char-to-num-conversion.py" "../")
+
+ ("/home/insane/Main/the-odin-project/foundations-course/css-exercises_the-odin-project/foundations/03-grouping-selectors/" (26124 40774 0 0) "desired-outcome.png" "index.html" "./" "solution/" "README.md" "#style.css#" "../" "style.css")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-04/" (26125 121 0 0) "./" "02.py" "01.py" "9e8439a27af18817e046ac37333d03f6_lec4_functions.py" "03.py" "../" "04.py")
+
+ ("/home/insane/.emacs.d/" (26143 53072 356313 639000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
+
+ ("/home/insane/Main/college-work/MGT/" (26127 16304 0 0) "manager_interview.pdf" "./" "mod_1.org" "manager_interview.pptx" "../" "test.md")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-05/" (26141 2927 371569 669000) "cdf5f8e7f109952655f4d253ed955555_lec5_tuples_lists.py" "list_v6.py" "./" "list_v5.py" "tuples.py" "tuples_v3.py" "list_v3.py" "prac/" "../" "list_v2.py" "list_v4.py" "tuples_v4.py" "list_v1.py" "tuple_v2.py")
+
+ ("/home/insane/Main/programming/self-projects/python/09-custom-stack-implementation/get-stacked/" (26129 35206 0 0) "./" "README.md" ".git/" "stack.py" "../")
+
+ ("/home/insane/Main/the-odin-project/foundations-course/css-exercises_the-odin-project/foundations/04-chaining-selectors/" (26129 51396 0 0) "desired-outcome.png" "index.html" "./" "solution/" "README.md" "images/" "../" "style.css")
+
+ ("/home/insane/Main/the-odin-project/foundations-course/css-foundations/the-cascade/01/" (26129 51859 0 0) "index.html" "./" "../" "style.css")
+
+ ("~/Main/the-odin-project/foundations-course/css-foundations/the-cascade/01/" (26129 51859 0 0) "index.html" "./" "../" "style.css")
+
+ ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/" (26129 21692 0 0) "index.html" "./" "img/" "recipes/" "README.md" ".git/" "../" "style.css")
+
+ ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/recipes/" (26129 51393 0 0) "./" "pizza.html" "burger.html" "lasagna.html" "pasta.html" "../" "style.css")
+
+ ("/home/insane/Main/programming/self-projects/python/10-stack-fun/" (26129 35932 0 0) "./" "main.py" "../")
+
+ ("/home/insane/Main/programming/python-lang/interpretor/" (26138 29806 311953 323000) "interpretor.py" "./" "first.ins" "second.ins" "test.py" "../")
+
+ ("/home/insane/Downloads/" (26143 44417 285284 451000) "xubuntu-23.10-desktop-amd64.iso.torrent" "linuxmint-21.3-cinnamon-64bit.iso.torrent" "codecasts-intro_to_prog-1.1-HelloWorld.pas" "./" "ubuntu-23.fJxswdAH.10.1-desktop-amd64.iso.part" "hp/" "VisualStudioSetup.exe" "ubuntu-23.10.1-desktop-amd64.iso" "../" "xubuntu-23.10-desktop-amd64.iso(1).torrent" "TerminalUserInput.pas")
+
+ ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/" (26135 16378 0 0) "programming-projects/" "pun.c" "00-test/" "./" "pun" "../" "01-pun/")
+
+ ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/01/" (26133 62037 0 0) "./" "main.c" "a.out" "../")
+
+ ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/02/" (26134 37010 0 0) "./" "main.c" "a.out" "../")
+
+ ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/03/" (26134 36989 0 0) "./" "main.c" "../")
+
+ ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/04/" (26134 37325 0 0) "./" "main.c" "a.out" "../")
+
+ ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/05/" (26134 37846 0 0) "./" "main.c" "a.out" "../")
+
+ ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/06/" (26134 38125 0 0) "./" "main.c" "a.out" "../")
+
+ ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/07/" (26134 38806 0 0) "./" "main.c" "a.out" "../")
+
+ ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/08/" (26134 51569 0 0) "./" "main.c" "a.out" "../")
+
+ ("/home/insane/Main/OSSU/programming-languages/PASCAL/01-basics/02/" (26138 34147 392433 112000) "./" "main.pas" "../")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-05/prac/" (26141 6358 546860 295000) "./" "main.py" "../")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-06/" (26143 21783 360764 790000) ".#01.py" "./" "#01.py#" "../")
+
+ ("/home/insane/Main/OSSU/intro-cs/recursion/" (26143 44107 457301 650000) "./" "main.c" "01.py" "test.py" "a.out" "../")
+
+ ("/home/insane/Main/OSSU/intro-cs/" (26143 21160 911925 534000) "recursion/" ".idea/" "./" "../" "mit-6.0001/")
+
  ("/home/insane/Main/OSSU/programming-languages/C#/tutorials/09-sorting-and-searching/" (26141 22215 919522 774000) "./" "../")
 
- ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-06/" (26141 9167 317196 603000) "./" "../")
-
- ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-05/prac/" (26141 2927 371569 669000) "./" "../")
-
  ("/home/insane/Main/OSSU/programming-languages/" (26140 23501 252590 263000) "some-foundations/" "C#/" "./" "PASCAL/" "../" "C/" "java/")
-
- ("/home/insane/" (26141 2299 81677 539000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".templateengine/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".bash_history" ".xinitrc" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" "README.md" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".lazarus/" ".npm/" ".gtkrc-2.0" "Desktop/" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".wget-hsts" ".mozilla/" ".zcompdump" ".nimble/" ".dmrc" ".dotfiles/" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".fehbg" ".ServiceHub/" ".gnupg/")
-
- ("/home/insane/Main/OSSU/programming-languages/PASCAL/01-basics/02/" (26138 29206 175995 100000) ".#main.pas" "./" "#main.pas#" "main.pas" "../")
 
  ("/home/insane/Main/OSSU/programming-languages/PASCAL/" (26137 63375 333751 403000) "./" "02-intro/" "01-basics/" "../" "03-program-and-seq/")
 
@@ -116,31 +174,7 @@
 
  ("/home/insane/Main/OSSU/programming-languages/PASCAL/program-and-seq/" (26135 21562 515207 42000) "../" "./")
 
- ("/home/insane/.emacs.d/" (26134 52429 811854 445000) ".mc-lists.el" "init.el~" "../" "url/" "./" "kkcrc" "init.el" "elpa/" "tutorial/" "eshell/" "elgrep-data.el" "transient/" "auto-save-list/" "games/" "ido.last~" "ido.last" "multisession/")
-
- ("/home/insane/Downloads/" (26134 46851 9092 128000) "Computer Networking _ A Top Down Approach, 7th, converted.pdf" "#test#" "Debar List MID Term Examinations Winter Semester 2023-24 Batch 2021, 2022 & 2023 April 2024.pdf" "7b5294e2c78e0aaf273b4149ec55c1b1_ps0.zip" "sicp.pdf" "Module 2.pptx" "../" "Module-2.pdf" "Modern C.pdf" "./" "PMOB Mod1 (part 3) Decision-Making.ppt" "hp/" "Group_3.pdf" "C Traps and Pitfalls.pdf" "Programming Principles and (Z-Library).epub" "Schedule_MidTerm Examinations_Winter Semester 2023-24.pdf" "d57834a8de13b1579b3e5274e520ea14_ps2.zip" "PMOB Module 1 (part 1).ppt" "Programming Principles and (Z-Library).pdf" "wp11539455-cyberpunk-edgerunner-desktop-wallpapers.jpg" "PMOB Mod1 (part 2) Planning(1).ppt" "Module-2-1.pdf" "Head_First_Java_Second_Edition.pdf" "programming in c (4th edition)  - stephen g. kochan(1).pdf" "ps0/" "1.1_video_slides_posted.pptx" "Module-3.pdf" "PMOB Mod1 (part 2) Planning.ppt" "Module-1.pdf" "47Mb Hard Disk.img" "Ultimate C++ (Part 1-2-3).zip" "Code With Mosh - Ultimate C++ (Part 1-2-3)/")
-
- ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/" (26135 16378 394986 770000) "pun.c" "pun" "../" "00-test/" "./" "01-pun/" "programming-projects/")
-
- ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/08/" (26134 51569 199113 835000) "../" "./" "a.out" "main.c")
-
  ("/home/insane/Main/OSSU/programming-languages/C/" (26133 55104 916699 294000) "../" "./" "test.c" "02-chapter-02/")
-
- ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/01/" (26133 62037 580792 12000) "../" "./" "a.out" "main.c")
-
- ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/02/" (26134 37010 562499 895000) "../" "./" "a.out" "main.c")
-
- ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/03/" (26134 36989 952104 961000) "../" "./" "main.c")
-
- ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/04/" (26134 37325 735177 700000) "../" "./" "a.out" "main.c")
-
- ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/05/" (26134 37846 665103 665000) "../" "./" "a.out" "main.c")
-
- ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/06/" (26134 38125 567084 597000) "../" "./" "a.out" "main.c")
-
- ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/programming-projects/07/" (26134 38806 376723 584000) "../" "./" "a.out" "main.c")
-
- ("/home/insane/Main/programming/python-lang/interpretor/" (26132 29910 861590 259000) "first.ins" "interpretor.py" "../" "./" "test.py" "second.ins")
 
  ("/home/insane/Main/programming/ruby/koans/" (26132 27056 280372 618000) "about_proxy_object_project.rb" "about_sandwich_code.rb" "about_objects.rb" "about_keyword_arguments.rb" "about_modules.rb" "about_scope.rb" "../" "./" "about_constants.rb" "about_dice_project.rb" "about_strings.rb" "about_exceptions.rb" ".path_progress" "GREED_RULES.txt" "koans.watchr" "about_iteration.rb" "README.rdoc" "path_to_enlightenment.rb" "example_file.txt" "about_scoring_project.rb" "about_open_classes.rb" "neo.rb" "about_hashes.rb" "about_to_str.rb" "about_symbols.rb" "about_blocks.rb" "about_pattern_matching.rb" "about_methods.rb" "about_asserts.rb" "about_inheritance.rb" "Rakefile" "about_arrays.rb" "about_classes.rb" "about_triangle_project_2.rb" "about_true_and_false.rb" "about_control_statements.rb" "about_message_passing.rb" "about_class_methods.rb" "about_nil.rb" "about_array_assignment.rb" "about_extra_credit.rb" "about_triangle_project.rb" "about_java_interop.rb" "about_regular_expressions.rb" "triangle.rb")
 
@@ -153,26 +187,6 @@
  ("/home/insane/Main/OSSU/java/Random/" (26131 36802 625073 180000) "../" "./" "random.java" "random.class" ".idea/")
 
  ("/home/insane/Main/OSSU/some-foundations/oops/" (26131 36802 628406 566000) "student_v2.py" "../" "./" "student_v8.py" "student_v11.py" "student_v3.py" "student_v9.py" "test.py" "student_v5.py" "student_v6.py" "student_v10.py" "objects.py" "student_v4.py" "student_v7.py" "inheritance_v1.py" "class_method_v1.py" "student_v1.py" "type.py" "operator_overloading.py")
-
- ("/home/insane/Main/programming/self-projects/python/09-custom-stack-implementation/get-stacked/" (26129 35206 880960 521000) "stack.py" "../" "./" "README.md" ".git/")
-
- ("/home/insane/Main/the-odin-project/foundations-course/css-exercises_the-odin-project/foundations/04-chaining-selectors/" (26129 51396 706492 227000) "index.html" "../" "./" "solution/" "images/" "style.css" "desired-outcome.png" "README.md")
-
- ("/home/insane/Main/the-odin-project/foundations-course/css-foundations/the-cascade/01/" (26129 51859 309573 532000) "index.html" "../" "./" "style.css")
-
- ("~/Main/the-odin-project/foundations-course/css-foundations/the-cascade/01/" (26129 51859 309573 532000) "index.html" "../" "./" "style.css")
-
- ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/" (26129 21692 905895 519000) "index.html" "img/" "../" "./" "recipes/" "style.css" "README.md" ".git/")
-
- ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/recipes/" (26129 51393 249757 269000) "../" "lasagna.html" "./" "burger.html" "pasta.html" "pizza.html" "style.css")
-
- ("/home/insane/Main/programming/self-projects/python/10-stack-fun/" (26129 35932 209211 522000) "main.py" "../" "./")
-
- ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-05/" (26128 16112 82433 371000) "list_v5.py" "list_v4.py" "../" "tuples_v3.py" "list_v1.py" "./" "tuple_v2.py" "list_v3.py" "tuples_v4.py" "tuples.py" "cdf5f8e7f109952655f4d253ed955555_lec5_tuples_lists.py" "list_v2.py" "list_v6.py")
-
- ("/home/insane/Main/college-work/MGT/" (26127 16304 670757 873000) "../" "./" "test.md" "manager_interview.pptx" "mod_1.org" "manager_interview.pdf")
-
- ("/home/insane/Main/OSSU/intro-cs/" (26126 5671 538342 72000) "../" "./" "mit-6.0001/" ".idea/")
 
  ("/home/insane/.emacs.d/eshell/" (26125 21591 843097 508000) "../" "./" "history" "lastdir")
 
@@ -188,14 +202,6 @@
 
  ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/" (26125 3209 196247 862000) "lecture-05/" "lecture-01/" "../" "./" "ps02/" "lecture-03/" "lecture-04/" "lecture-02/" ".venv/" "ps0/" "ps01/")
 
- ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/ps01/" (26124 48576 704797 987000) "ps1a.py" "../" "./" "ps1.pdf" "ps1b.py" "ps1c.py")
-
- ("/home/insane/Main/programming/cse-practice/" (26124 48576 701464 598000) "fib.py" "../" "./" "char-to-num-conversion.py" "base-conversion.py" "rev-fib.py")
-
- ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-04/" (26125 121 450661 825000) "02.py" "../" "04.py" "./" "9e8439a27af18817e046ac37333d03f6_lec4_functions.py" "03.py" "01.py")
-
- ("/home/insane/Main/the-odin-project/foundations-course/css-exercises_the-odin-project/foundations/03-grouping-selectors/" (26124 40774 855255 791000) "index.html" "../" "./" "solution/" "style.css" "desired-outcome.png" "README.md" "#style.css#")
-
  ("/home/insane/Main/OSSU/some-foundations/" (26122 3749 626323 614000) "../" "oops/" "./")
 
  ("/home/insane/Main/the-odin-project/foundations-course/css-exercises_the-odin-project/" (26119 9654 243940 436000) "../" "foundations/" "./" "LICENSE" "grid/" ".gitignore" ".github/" "margin-and-padding/" ".eslintrc.js" "animation/" "flex/" "README.md" ".git/")
@@ -203,8 +209,6 @@
  ("/home/insane/Main/the-odin-project/foundations-course/css-exercises_the-odin-project/foundations/" (26119 9654 237273 682000) "02-class-id-selectors/" "../" "./" "03-grouping-selectors/" "01-css-methods/" "04-chaining-selectors/" "06-cascade-fix/" "05-descendant-combinator/")
 
  ("/media/" (26091 38585 952729 658000) "./" "../")
-
- ("/home/insane/Main/programming/cs50/week3/" (26120 58521 953386 525000) "selection_sort.c~" "../" "./" "phone_book.c~" "Makefile" "main" "binary_search.c" "selection_sort.c" "a.out" "linear_search_v2.c~" "main.c" "linear_search_v2.c" "linear_search.c~" "phone_book.c" "linear_search.c")
 
  ("/home/insane/.emacs.d/elpa/" (26120 26169 674421 966000) "cyberpunk-theme-1.22/" "../" "./" "org-9.6.24/" "ace-jump-mode-20140616.815/" "doom-themes-20240320.121/" "dash-20240103.1301/" "emmet-mode-20221111.329/" "zenburn-theme-20231120.2002/" "grep-a-lot-20210618.1420/" "solarized-theme-20231204.713/" "gnupg/" "gruvbox-theme-20230921.120/" "org-9.6.24.signed" "gruber-darker-theme-20231026.2031/" "cyberpunk-theme-1.22.signed" "spacemacs-theme-20230530.1751/" "autothemer-20230414.1419/" "nyan-mode-20220408.2334/" "multiple-cursors-20240223.1134/" "archives/" "ace-mc-20190206.749/")
 

@@ -1,4 +1,4 @@
-# 1. i3-config-wizard(1).
+# 0. i3-config-wizard(1).
 # 2. https://i3wm.org/docs/userguide.html for a complete reference!
 
 
@@ -186,7 +186,7 @@ bar
 
 
 # #---Additional commands----# #
-for_window [class="^.*"] border pixel 2
+#for_window [class="^.*"] border pixel 2
 for_window [class="floating_terminal"] floating enable
 
 
