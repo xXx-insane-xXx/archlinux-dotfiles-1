@@ -1,0 +1,55 @@
+[buildPlans.PrasevkaIomataMnlV1]
+family = "Prasevka Iomata MNL v1"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+noLigation = true
+
+  [buildPlans.PrasevkaIomataMnlV1.variants]
+  inherits = "ss08"
+
+    [buildPlans.PrasevkaIomataMnlV1.variants.design]
+    capital-d = "standard-serifless"
+    capital-i = "serifed"
+    capital-j = "serifed"
+    capital-q = "curly-tailed"
+    capital-z = "curly-serifless"
+    g = "double-storey"
+    l = "serifed"
+    m = "earless-corner-double-arch-short-leg-serifless"
+    r = "corner-hooked-base-serifed"
+    zero = "slashed"
+    five = "upright-arched-serifless"
+    seven = "curly-serifless"
+    punctuation-dot = "square"
+    asterisk = "penta-high"
+    brace = "curly-flat-boundary"
+    guillemet = "curly"
+    number-sign = "upright"
+    at = "compact"
+    dollar = "through"
+    cent = "through"
+    percent = "rings-segmented-slash"
+    lig-neq = "slightly-slanted"
+
+[buildPlans.PrasevkaIomataMnlV1.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.PrasevkaIomataMnlV1.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.PrasevkaIomataMnlV1.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.PrasevkaIomataMnlV1.widths.Normal]
+shape = 548
+menu = 5
+css = "normal"
+
