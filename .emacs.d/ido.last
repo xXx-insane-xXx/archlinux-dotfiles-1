@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/insane/Main/duke/" . "C-programming/")
+ ("/home/insane/Main/my-websites/" . "interesting-articles/")
  ("/home/insane/.config/" . "libvirt/")
  ("/home/insane/Main/OSSU/programming-languages/PASCAL/" . "intro/")
  ("/home/insane/Main/OSSU/programming-languages/" . "PASCAL/")
@@ -17,7 +19,7 @@
  ("/home/insane/Main/the-odin-project/" . "foundations-course/")
  ("/home/insane/Main/OSSU/intro-cs/" . "mit-6.0001/")
  ("/home/insane/Main/OSSU/" . "intro-cs/")
- ("/home/insane/Main/" . "OSSU/")
+ ("/home/insane/Main/" . "duke/")
  ("/home/insane/" . "Main/")
 )
 
@@ -70,8 +72,8 @@
 
 ;; ----- ido-work-file-list -----
 (
- "stack.c"
  "01.py"
+ "stack.c"
  "main.py"
  "main.pas"
  "helloworld.pas"
@@ -79,12 +81,43 @@
  "#helloworld.fpc#"
  "helloworld.fpc"
  "main.c"
- "pun.c"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/insane/" (26143 61835 312813 296000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".templateengine/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".bash_history" ".xinitrc" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" "README.md" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".lazarus/" ".npm/" "Library/" ".gtkrc-2.0" "Desktop/" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".wget-hsts" ".mozilla/" ".zcompdump" ".nimble/" ".dmrc" ".dotfiles/" ".nvidia-settings-rc" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".fehbg" ".ServiceHub/" ".gnupg/")
+ ("/home/insane/" (26150 47383 872753 502000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".openjfx/" ".templateengine/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".bash_history" ".xinitrc" ".bluej/" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" "iosevka_custom" ".node_repl_history" "README.md" "installer.sh" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".npm/" "Templates/" ".gtkrc-2.0" "Desktop/" ".steampath" "Documents/" "test.py" ".bash_profile" ".gitconfig" ".emacs.d/" ".steam/" ".wget-hsts" ".mozilla/" ".zcompdump" ".phoenix-code/" ".nimble/" ".dmrc" ".dotfiles/" ".nvidia-settings-rc" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".fehbg" ".ServiceHub/" "Videos/" ".steampid" ".insane/" ".gnupg/" "Public/")
+
+ ("/home/insane/.emacs.d/" (26149 19051 294124 332000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
+
+ ("/home/insane/Downloads/" (26149 18964 850337 554000) "readme.cpp" "xubuntu-23.10-desktop-amd64.iso.torrent" "linuxmint-21.3-cinnamon-64bit.iso.torrent" "Screen Shot 2024-04-18 at 19.47.04.png" "jpg2png.zip" "stb_image.cpp" "test.go" "codepagedatabase.cpp" "./" "ubuntu-23.fJxswdAH.10.1-desktop-amd64.iso.part" "charcounter.cpp" "Screen Shot 2024-04-18 at 19.47.59.png" "Screen Shot 2024-04-18 at 19.47.35.png" "Harry Potter and the Deathly Hallows Part-1[2011]BrRip-H264-[KK].srt" "SUBDL harry-potter-and-the-deathly-hallows-part-1-437302.zip" "dwd01.zip" "hp/" "monoid/" "dwd01/" "stb_image_write.cpp" "andale32.exe" "Inconsolata-g for Powerline.otf" "Harry.Potter.And.The.Order.Of.The.Phoenix.English-WWW.MY-SUBS.CO.srt" "pnghextobdf.cpp" "ubuntu-23.10.1-desktop-amd64.iso" "pnghexreadwrite.cpp" "pnghextopnghex.cpp" "hex/" "../" "Screen Shot 2024-04-18 at 19.48.17.png" "kissinger/" "wallpaperflare.com_wallpaper(1).jpg" "png/" "xubuntu-23.10-desktop-amd64.iso(1).torrent" "TerminalUserInput.pas" "sol1.png")
+
+ ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/week02/01-variables/" (26149 41370 900549 816000) "./" "../")
+
+ ("/home/insane/Main/duke/C-programming/" (26148 36871 696460 585000) "./" "01-programmingFundamentals/" "../")
+
+ ("/home/insane/Main/duke/" (26148 36824 55518 355000) "./" "C-programming/" "../")
+
+ ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/" (26149 5396 694651 536000) "./" "main.py" "closest_point.py" "../")
+
+ ("/home/insane/Main/my-websites/knowledge-base/online-privacy/" (26149 3437 615341 174000) "./" "../")
+
+ ("/home/insane/Main/my-websites/interesting-articles/" (26147 60412 5735 152000) "index.html" "./" "../" "style.css")
+
+ ("/home/insane/Main/my-websites/" (26147 63141 323431 827000) "my-interests/" "./" "interesting-articles/" ".git/" "queries/" "../" "knowledge-base/")
+
+ ("/home/insane/Main/" (26148 36807 581858 909000) "DukeJava/" "fp/" "DukeWebDev/" "college-work/" "OSSU/" "test" "programming/" "TOP/" "my-" "./" "duke/" "Wallpapers/" "webdev/" ".filen.trash.local/" "pywal-apps/" "references/" "CollegeWork/" "my-websites/" "nand2tetris/" "../" "books/" "the-odin-project/")
+
+ ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/01-sevenSteps/01/" (26148 36895 880271 745000) "./" "../")
+
+ ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/" (26145 8427 515318 219000) "index.html" "./" "img/" "recipes/" "README.md" ".git/" "script.js" "../" "style.css")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-06/" (26145 1958 666274 96000) "test.c" "./" "02.py" "01.py" "03.py" "a.out" "../" "04.py" "dict01.py")
+
+ ("/home/insane/Main/OSSU/intro-cs/recursion/" (26146 47192 344229 840000) "./" "02.py" "main.c" "01.py" "03.py" "test.py" "a.out" "../" "04.py" "stack.c")
+
+ ("/home/insane/Main/my-websites/queries/" (26147 31886 249774 205000) "./" "../")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/" (26141 9167 317196 603000) "lecture-01/" "lecture-05/" "./" "lecture-06/" "ps02/" "lecture-04/" "ps01/" ".venv/" "../" "lecture-03/" "ps0/" "lecture-02/")
 
  ("/home/insane/Main/programming/cs50/week3/" (26120 58521 0 0) "binary_search.c" "phone_book.c~" "linear_search_v2.c~" "./" "linear_search.c~" "selection_sort.c" "main.c" "linear_search.c" "phone_book.c" "a.out" "../" "main" "selection_sort.c~" "Makefile" "linear_search_v2.c")
 
@@ -95,8 +128,6 @@
  ("/home/insane/Main/the-odin-project/foundations-course/css-exercises_the-odin-project/foundations/03-grouping-selectors/" (26124 40774 0 0) "desired-outcome.png" "index.html" "./" "solution/" "README.md" "#style.css#" "../" "style.css")
 
  ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-04/" (26125 121 0 0) "./" "02.py" "01.py" "9e8439a27af18817e046ac37333d03f6_lec4_functions.py" "03.py" "../" "04.py")
-
- ("/home/insane/.emacs.d/" (26143 53072 356313 639000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
 
  ("/home/insane/Main/college-work/MGT/" (26127 16304 0 0) "manager_interview.pdf" "./" "mod_1.org" "manager_interview.pptx" "../" "test.md")
 
@@ -110,15 +141,11 @@
 
  ("~/Main/the-odin-project/foundations-course/css-foundations/the-cascade/01/" (26129 51859 0 0) "index.html" "./" "../" "style.css")
 
- ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/" (26129 21692 0 0) "index.html" "./" "img/" "recipes/" "README.md" ".git/" "../" "style.css")
-
  ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/recipes/" (26129 51393 0 0) "./" "pizza.html" "burger.html" "lasagna.html" "pasta.html" "../" "style.css")
 
  ("/home/insane/Main/programming/self-projects/python/10-stack-fun/" (26129 35932 0 0) "./" "main.py" "../")
 
  ("/home/insane/Main/programming/python-lang/interpretor/" (26138 29806 311953 323000) "interpretor.py" "./" "first.ins" "second.ins" "test.py" "../")
-
- ("/home/insane/Downloads/" (26143 44417 285284 451000) "xubuntu-23.10-desktop-amd64.iso.torrent" "linuxmint-21.3-cinnamon-64bit.iso.torrent" "codecasts-intro_to_prog-1.1-HelloWorld.pas" "./" "ubuntu-23.fJxswdAH.10.1-desktop-amd64.iso.part" "hp/" "VisualStudioSetup.exe" "ubuntu-23.10.1-desktop-amd64.iso" "../" "xubuntu-23.10-desktop-amd64.iso(1).torrent" "TerminalUserInput.pas")
 
  ("/home/insane/Main/OSSU/programming-languages/C/02-chapter-02/" (26135 16378 0 0) "programming-projects/" "pun.c" "00-test/" "./" "pun" "../" "01-pun/")
 
@@ -142,10 +169,6 @@
 
  ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-05/prac/" (26141 6358 546860 295000) "./" "main.py" "../")
 
- ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-06/" (26143 21783 360764 790000) ".#01.py" "./" "#01.py#" "../")
-
- ("/home/insane/Main/OSSU/intro-cs/recursion/" (26143 44107 457301 650000) "./" "main.c" "01.py" "test.py" "a.out" "../")
-
  ("/home/insane/Main/OSSU/intro-cs/" (26143 21160 911925 534000) "recursion/" ".idea/" "./" "../" "mit-6.0001/")
 
  ("/home/insane/Main/OSSU/programming-languages/C#/tutorials/09-sorting-and-searching/" (26141 22215 919522 774000) "./" "../")
@@ -159,8 +182,6 @@
  ("/home/insane/Main/OSSU/programming-languages/PASCAL/basics/01/" (26137 62714 505149 911000) "./" "../")
 
  ("/home/insane/Main/OSSU/" (26133 19229 0 0) "./" "intro-cs/" "programming-languages/" "../")
-
- ("/home/insane/Main/" (26136 39568 123319 97000) "college-work/" "OSSU/" "test/" "programming/" "TOP/" "problems-to-my-solutions/" "./" "Wallpapers/" "webdev/" ".filen.trash.local/" "pywal-apps/" "references/" "CollegeWork/" "nand2tetris/" "../" "books/" "the-odin-project/" "ProblemsToMySolutions/")
 
  ("/home/" (26136 32718 611789 437000) "./" "insane/" "../")
 
@@ -199,8 +220,6 @@
  ("/home/insane/Main/OSSU/java/datatypes/" (26125 23254 251567 338000) "../" "./")
 
  ("/home/insane/Main/OSSU/java/variables/" (26125 22366 366933 603000) "../" "./")
-
- ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/" (26125 3209 196247 862000) "lecture-05/" "lecture-01/" "../" "./" "ps02/" "lecture-03/" "lecture-04/" "lecture-02/" ".venv/" "ps0/" "ps01/")
 
  ("/home/insane/Main/OSSU/some-foundations/" (26122 3749 626323 614000) "../" "oops/" "./")
 

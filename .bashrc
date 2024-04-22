@@ -1,3 +1,5 @@
+cowsay -f satanic Hey!
+
 #
 # ~/.bashrc
 #
@@ -20,7 +22,7 @@ PS1='[\u@\h \W]$(parse_git_branch)\[\][$]\n~> '
 
 
 ##### PATH #####
-export PATH="$PATH:/home/insane/.dotnet/tools/"
+export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/"
 
 ##### pywall #####
 
@@ -47,3 +49,5 @@ alias ..="cd .."
 # Python
 export PYTHONPATH=$PYTHONPATH:/home/insane/.insane/PythonCustomModules
 alias insaneENV="source /home/insane/.insane/InsanePythonEnv/bin/activate"
+
+eval "$(zoxide init bash)"
