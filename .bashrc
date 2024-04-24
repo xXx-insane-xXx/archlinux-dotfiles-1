@@ -18,7 +18,7 @@ function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ (\1$(parse_git_dirty))/"
 }
 
-PS1='[\u@\h \W]$(parse_git_branch)\[\][$]\n~> '
+PS1='[\u@\h \W]$(parse_git_branch)\[\][ ]\n ~ '
 
 
 ##### PATH #####
@@ -45,6 +45,7 @@ export PATH="$PATH:/home/insane/.dotnet/tools/:/home/insane/.local/bin/"
 alias startdwm="startx ~/.dwmxinitrc"
 alias dots='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias ..="cd .."
+alias ll="ls -la"
 
 # Python
 export PYTHONPATH=$PYTHONPATH:/home/insane/.insane/PythonCustomModules

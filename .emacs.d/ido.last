@@ -19,12 +19,15 @@
  ("/home/insane/Main/the-odin-project/" . "foundations-course/")
  ("/home/insane/Main/OSSU/intro-cs/" . "mit-6.0001/")
  ("/home/insane/Main/OSSU/" . "intro-cs/")
- ("/home/insane/Main/" . "duke/")
+ ("/home/insane/Main/" . "books/")
  ("/home/insane/" . "Main/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/insane/Main/programming/"
+ "/home/insane/Main/programming/python-lang/file-io/"
+ "/home/insane/Main/"
  "/home/insane/Main/OSSU/intro-cs/recursion/"
  "/home/insane/Main/OSSU/"
  "/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-06/"
@@ -72,24 +75,41 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "main.c"
+ "test.txt"
+ "main.py"
+ "test"
  "01.py"
  "stack.c"
- "main.py"
  "main.pas"
  "helloworld.pas"
  "helloworld.pp"
  "#helloworld.fpc#"
- "helloworld.fpc"
- "main.c"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/insane/" (26150 47383 872753 502000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".openjfx/" ".templateengine/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".bash_history" ".xinitrc" ".bluej/" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" "iosevka_custom" ".node_repl_history" "README.md" "installer.sh" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".npm/" "Templates/" ".gtkrc-2.0" "Desktop/" ".steampath" "Documents/" "test.py" ".bash_profile" ".gitconfig" ".emacs.d/" ".steam/" ".wget-hsts" ".mozilla/" ".zcompdump" ".phoenix-code/" ".nimble/" ".dmrc" ".dotfiles/" ".nvidia-settings-rc" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".fehbg" ".ServiceHub/" "Videos/" ".steampid" ".insane/" ".gnupg/" "Public/")
+ ("/home/insane/Main/scripting/" (26152 46726 180302 526000) "./" "helloworld.sh" "../")
 
- ("/home/insane/.emacs.d/" (26149 19051 294124 332000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
+ ("/home/insane/.emacs.d/" (26152 26091 823495 833000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
 
- ("/home/insane/Downloads/" (26149 18964 850337 554000) "readme.cpp" "xubuntu-23.10-desktop-amd64.iso.torrent" "linuxmint-21.3-cinnamon-64bit.iso.torrent" "Screen Shot 2024-04-18 at 19.47.04.png" "jpg2png.zip" "stb_image.cpp" "test.go" "codepagedatabase.cpp" "./" "ubuntu-23.fJxswdAH.10.1-desktop-amd64.iso.part" "charcounter.cpp" "Screen Shot 2024-04-18 at 19.47.59.png" "Screen Shot 2024-04-18 at 19.47.35.png" "Harry Potter and the Deathly Hallows Part-1[2011]BrRip-H264-[KK].srt" "SUBDL harry-potter-and-the-deathly-hallows-part-1-437302.zip" "dwd01.zip" "hp/" "monoid/" "dwd01/" "stb_image_write.cpp" "andale32.exe" "Inconsolata-g for Powerline.otf" "Harry.Potter.And.The.Order.Of.The.Phoenix.English-WWW.MY-SUBS.CO.srt" "pnghextobdf.cpp" "ubuntu-23.10.1-desktop-amd64.iso" "pnghexreadwrite.cpp" "pnghextopnghex.cpp" "hex/" "../" "Screen Shot 2024-04-18 at 19.48.17.png" "kissinger/" "wallpaperflare.com_wallpaper(1).jpg" "png/" "xubuntu-23.10-desktop-amd64.iso(1).torrent" "TerminalUserInput.pas" "sol1.png")
+ ("/home/insane/Downloads/" (26152 19487 517356 486000) "readme.cpp" "xubuntu-23.10-desktop-amd64.iso.torrent" "linuxmint-21.3-cinnamon-64bit.iso.torrent" "deeptesting-releaseexp-tmo-us.apk" "Screen Shot 2024-04-18 at 19.47.04.png" "jpg2png.zip" "stb_image.cpp" "test.go" "codepagedatabase.cpp" "nerd-patcher/" "./" "ubuntu-23.fJxswdAH.10.1-desktop-amd64.iso.part" "charcounter.cpp" "Screen Shot 2024-04-18 at 19.47.59.png" "Screen Shot 2024-04-18 at 19.47.35.png" "Improving Listening Comprehension.pdf" "Harry Potter and the Deathly Hallows Part-1[2011]BrRip-H264-[KK].srt" "SUBDL harry-potter-and-the-deathly-hallows-part-1-437302.zip" "dwd01.zip" "SUBDL.com harry.potter.and.the.deathly.hallows.part.21950411.zip" "hp/" "monoid/" "dwd01/" "archlinux-2024.Rib04mpN.04.01-x86_64.iso.part" "stb_image_write.cpp" "andale32.exe" "Inconsolata-g for Powerline.otf" "Harry.Potter.And.The.Order.Of.The.Phoenix.English-WWW.MY-SUBS.CO.srt" "pnghextobdf.cpp" "ubuntu-23.10.1-desktop-amd64.iso" "pnghexreadwrite.cpp" "pnghextopnghex.cpp" "hex/" "../" "iosevka/" "archlinux-2024.04.01-x86_64.iso" "Screen Shot 2024-04-18 at 19.48.17.png" "Harry.Potter.And.The.Deathly.Hallows.Part.2.PROPER.1080p.BluRay.X264-BLOW.srt" "kissinger/" "wallpaperflare.com_wallpaper(1).jpg" "png/" "xubuntu-23.10-desktop-amd64.iso(1).torrent" "TerminalUserInput.pas" "sol1.png")
+
+ ("/home/insane/Main/" (26152 45963 966668 801000) "DukeJava/" "fp/" "DukeWebDev/" "college-work/" "scripting/" "OSSU/" "test/" "programming/" "TOP/" "my-" "./" "duke/" "Wallpapers/" "webdev/" ".filen.trash.local/" "pywal-apps/" "references/" "CollegeWork/" "my-websites/" "nand2tetris/" "../" "books/" "the-odin-project/")
+
+ ("/home/insane/Main/programming/python-lang/file-io/" (26152 14336 966209 291000) "test2.txt" "./" "main.py" "test4.txt" "../" "test3.txt" "test.txt")
+
+ ("/home/insane/Main/books/" (26135 60695 0 0) "./" "C_ProgrammingAModernApproach_2ndEdition_KNK_Z-Library.pdf" "Programming Principles and (Z-Library).pdf" "ProgrammingfromtheGround_Z-Library.chm" "TLCL-19.01.pdf" "CProgrammingAbsoluteBeginnersGuide3rdEditio.424140197.pdf" "sicp.pdf" ".filen.trash.local/" "TheCProgrammingLanguage_2ndEd_ANSI-C_BrianW-Kernighan_DennisM-Ritchie_Z-Library.pdf" "Programming in Lua 4th Edition.pdf" "Computer Networking _ A Top Down Approach, 7th, converted.pdf" "../" "J24ComputerNetworkAttacksastudy.pdf" "Programming Principles and (Z-Library).epub")
+
+ ("/home/insane/" (26152 45838 732367 534000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".openjfx/" ".templateengine/" "wau2/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".Xresources.bak" ".bash_history" ".xinitrc" ".bluej/" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" ".node_repl_history" "README.md" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".npm/" "wau/" "Templates/" ".gtkrc-2.0" "Desktop/" ".steampath" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".steam/" ".wget-hsts" ".mozilla/" ".zcompdump" ".phoenix-code/" ".nimble/" ".dmrc" ".dotfiles/" ".bash_history-00754.tmp" ".nvidia-settings-rc" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".fehbg" ".ServiceHub/" "Videos/" ".steampid" ".insane/" ".gnupg/" "Public/")
+
+ ("/home/insane/Main/OSSU/intro-cs/recursion/" (26150 18053 402431 74000) "./" "02.py" "main.c" "01.py" "03.py" "test.py" "a.out" "../" "04.py" "stack.c")
+
+ ("/home/insane/Main/programming/" (26132 27033 0 0) "cs50/" "test/" "cse-practice/" "cpp-lang/" "./" "game-loop-main-dir/" "lua-lang/" "elisp/" "freecodecamp/" "pygame/" "python-lang/" "ruby/" "../" "C-lang/" "self-projects/" "gtk/")
+
+ ("/home/insane/Main/test/" (26151 12962 205332 179000) "./" "../")
+
+ ("/home/insane/Main/references/" (26104 12120 0 0) "./" "01-tmux/" "../")
 
  ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/week02/01-variables/" (26149 41370 900549 816000) "./" "../")
 
@@ -105,15 +125,11 @@
 
  ("/home/insane/Main/my-websites/" (26147 63141 323431 827000) "my-interests/" "./" "interesting-articles/" ".git/" "queries/" "../" "knowledge-base/")
 
- ("/home/insane/Main/" (26148 36807 581858 909000) "DukeJava/" "fp/" "DukeWebDev/" "college-work/" "OSSU/" "test" "programming/" "TOP/" "my-" "./" "duke/" "Wallpapers/" "webdev/" ".filen.trash.local/" "pywal-apps/" "references/" "CollegeWork/" "my-websites/" "nand2tetris/" "../" "books/" "the-odin-project/")
-
  ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/01-sevenSteps/01/" (26148 36895 880271 745000) "./" "../")
 
  ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/" (26145 8427 515318 219000) "index.html" "./" "img/" "recipes/" "README.md" ".git/" "script.js" "../" "style.css")
 
  ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-06/" (26145 1958 666274 96000) "test.c" "./" "02.py" "01.py" "03.py" "a.out" "../" "04.py" "dict01.py")
-
- ("/home/insane/Main/OSSU/intro-cs/recursion/" (26146 47192 344229 840000) "./" "02.py" "main.c" "01.py" "03.py" "test.py" "a.out" "../" "04.py" "stack.c")
 
  ("/home/insane/Main/my-websites/queries/" (26147 31886 249774 205000) "./" "../")
 
@@ -200,8 +216,6 @@
  ("/home/insane/Main/programming/ruby/koans/" (26132 27056 280372 618000) "about_proxy_object_project.rb" "about_sandwich_code.rb" "about_objects.rb" "about_keyword_arguments.rb" "about_modules.rb" "about_scope.rb" "../" "./" "about_constants.rb" "about_dice_project.rb" "about_strings.rb" "about_exceptions.rb" ".path_progress" "GREED_RULES.txt" "koans.watchr" "about_iteration.rb" "README.rdoc" "path_to_enlightenment.rb" "example_file.txt" "about_scoring_project.rb" "about_open_classes.rb" "neo.rb" "about_hashes.rb" "about_to_str.rb" "about_symbols.rb" "about_blocks.rb" "about_pattern_matching.rb" "about_methods.rb" "about_asserts.rb" "about_inheritance.rb" "Rakefile" "about_arrays.rb" "about_classes.rb" "about_triangle_project_2.rb" "about_true_and_false.rb" "about_control_statements.rb" "about_message_passing.rb" "about_class_methods.rb" "about_nil.rb" "about_array_assignment.rb" "about_extra_credit.rb" "about_triangle_project.rb" "about_java_interop.rb" "about_regular_expressions.rb" "triangle.rb")
 
  ("/home/insane/Main/programming/ruby/" (26132 27049 823673 37000) "../" "./" "koans/")
-
- ("/home/insane/Main/programming/" (26132 27033 250255 222000) "gtk/" "ruby/" "game-loop-main-dir/" "../" "python-lang/" "./" "freecodecamp/" "C-lang/" "cpp-lang/" "pygame/" "cse-practice/" "cs50/" "elisp/" "self-projects/" "test/" "lua-lang/")
 
  ("/home/insane/Main/OSSU/java/" (26132 5690 969275 708000) "overloaded-methods/" "logical-op/" "scope/" "Expressions/" "Wow.class" "../" "./" "for/" "OSSU.iml" "OOP/" "final/" "Random/" "string-methods/" "Contructors/" "methods/" "GUI/" "printf/" "wrapper-class/" "arrays/" "while/" "main.cpp" "test.java" "java-switch/" ".metadata/" "2darr/" "out/" "MyFirstProgram/" ".vscode/" "If/" "test.class" ".idea/" "nested-loop/")
 

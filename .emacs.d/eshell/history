@@ -18,8 +18,6 @@ python main.py
 exit
 python main.py 
 exit
-python main.py 
-exit
 python first.ins
 exit
 python first.ins
@@ -125,4 +123,6 @@ s
 ls
 gcc stack.c 
 ./a.out 
+exit
+python test.py 
 exit
