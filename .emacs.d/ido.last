@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/insane/Main/programming/python-lang/" . "interpretor/")
  ("/home/insane/Main/duke/" . "C-programming/")
  ("/home/insane/Main/my-websites/" . "interesting-articles/")
  ("/home/insane/.config/" . "libvirt/")
@@ -11,7 +12,7 @@
  ("/" . "home/")
  ("/home/" . "insane/")
  ("/home/insane/Main/programming/self-projects/" . "C/")
- ("/home/insane/Main/programming/" . "ruby/")
+ ("/home/insane/Main/programming/" . "python-lang/")
  ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/" . "ps01/")
  ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/" . "img/")
  ("/home/insane/Main/the-odin-project/foundations-course/repos/" . "odin-recipes/")
@@ -19,12 +20,13 @@
  ("/home/insane/Main/the-odin-project/" . "foundations-course/")
  ("/home/insane/Main/OSSU/intro-cs/" . "mit-6.0001/")
  ("/home/insane/Main/OSSU/" . "intro-cs/")
- ("/home/insane/Main/" . "books/")
+ ("/home/insane/Main/" . "OSSU/")
  ("/home/insane/" . "Main/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/insane/Main/programming/self-projects/python/pacmanQDT/"
  "/home/insane/Main/programming/"
  "/home/insane/Main/programming/python-lang/file-io/"
  "/home/insane/Main/"
@@ -75,9 +77,9 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "main.py"
  "main.c"
  "test.txt"
- "main.py"
  "test"
  "01.py"
  "stack.c"
@@ -89,19 +91,33 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/insane/Main/scripting/" (26152 46726 180302 526000) "./" "helloworld.sh" "../")
+ ("/home/insane/Main/programming/self-projects/python/11-pacman-qdt/pacman-qdt-remover/" (26156 44042 409428 508000) "./" "main.py" ".git/" "../" ".gitignore")
 
- ("/home/insane/.emacs.d/" (26152 26091 823495 833000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/ps02/" (26156 36182 655325 7000) "./" "hangman.py" "words.txt" "../" "MIT6_0001F16_Pset2.pdf")
 
- ("/home/insane/Downloads/" (26152 19487 517356 486000) "readme.cpp" "xubuntu-23.10-desktop-amd64.iso.torrent" "linuxmint-21.3-cinnamon-64bit.iso.torrent" "deeptesting-releaseexp-tmo-us.apk" "Screen Shot 2024-04-18 at 19.47.04.png" "jpg2png.zip" "stb_image.cpp" "test.go" "codepagedatabase.cpp" "nerd-patcher/" "./" "ubuntu-23.fJxswdAH.10.1-desktop-amd64.iso.part" "charcounter.cpp" "Screen Shot 2024-04-18 at 19.47.59.png" "Screen Shot 2024-04-18 at 19.47.35.png" "Improving Listening Comprehension.pdf" "Harry Potter and the Deathly Hallows Part-1[2011]BrRip-H264-[KK].srt" "SUBDL harry-potter-and-the-deathly-hallows-part-1-437302.zip" "dwd01.zip" "SUBDL.com harry.potter.and.the.deathly.hallows.part.21950411.zip" "hp/" "monoid/" "dwd01/" "archlinux-2024.Rib04mpN.04.01-x86_64.iso.part" "stb_image_write.cpp" "andale32.exe" "Inconsolata-g for Powerline.otf" "Harry.Potter.And.The.Order.Of.The.Phoenix.English-WWW.MY-SUBS.CO.srt" "pnghextobdf.cpp" "ubuntu-23.10.1-desktop-amd64.iso" "pnghexreadwrite.cpp" "pnghextopnghex.cpp" "hex/" "../" "iosevka/" "archlinux-2024.04.01-x86_64.iso" "Screen Shot 2024-04-18 at 19.48.17.png" "Harry.Potter.And.The.Deathly.Hallows.Part.2.PROPER.1080p.BluRay.X264-BLOW.srt" "kissinger/" "wallpaperflare.com_wallpaper(1).jpg" "png/" "xubuntu-23.10-desktop-amd64.iso(1).torrent" "TerminalUserInput.pas" "sol1.png")
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-07/" (26156 35198 400793 69000) "./" "../")
 
- ("/home/insane/Main/" (26152 45963 966668 801000) "DukeJava/" "fp/" "DukeWebDev/" "college-work/" "scripting/" "OSSU/" "test/" "programming/" "TOP/" "my-" "./" "duke/" "Wallpapers/" "webdev/" ".filen.trash.local/" "pywal-apps/" "references/" "CollegeWork/" "my-websites/" "nand2tetris/" "../" "books/" "the-odin-project/")
+ ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/week02/02-printf/" (26156 34356 486574 409000) "./" "main.c" "../" "test.txt")
+
+ ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/test/" (26156 24918 57128 124000) "./" "../")
+
+ ("/home/insane/" (26156 22879 349032 483000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".bash_history-00725.tmp" ".openjfx/" ".templateengine/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".Xresources.bak" ".bash_history" ".xinitrc" ".bluej/" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" ".node_repl_history" "README.md" ".bash_history-01322.tmp" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".npm/" "Templates/" ".gtkrc-2.0" "Desktop/" ".steampath" ".histfile" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".steam/" ".wget-hsts" ".mozilla/" ".asc" ".zcompdump" ".ICEauthority" ".phoenix-code/" ".nimble/" ".dmrc" ".dotfiles/" ".bash_history-00754.tmp" ".nvidia-settings-rc" ".vscode/" "r2" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".android/" ".fehbg" ".ServiceHub/" "Videos/" ".steampid" ".insane/" ".gnupg/" "Public/")
+
+ ("/home/insane/.emacs.d/" (26155 20026 6417 864000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
+
+ ("/home/insane/Main/programming/self-projects/python/pacmanQDT/" (26155 20025 999751 42000) "file" "test" "remove.txt" "./" "main.py" "test.py" "../")
+
+ ("/home/insane/Main/scripting/" (26154 15065 852599 256000) "./" "basic_math.sh" "variables2.sh" "date.sh" "helloworld.sh" "../" "variables.sh" "myscript.sh")
+
+ ("/home/insane/Downloads/" (26154 46106 277256 727000) "readme.cpp" "deeptesting-releaseexp-tmo-us.apk" "Screen Shot 2024-04-18 at 19.47.04.png" "jpg2png.zip" "stb_image.cpp" "test.go" "codepagedatabase.cpp" "nerd-patcher/" "./" "ubuntu-23.fJxswdAH.10.1-desktop-amd64.iso.part" "gpa-0.10.0.tar.bz2" "charcounter.cpp" "Screen Shot 2024-04-18 at 19.47.59.png" "Screen Shot 2024-04-18 at 19.47.35.png" "Improving Listening Comprehension.pdf" "Harry Potter and the Deathly Hallows Part-1[2011]BrRip-H264-[KK].srt" "SUBDL harry-potter-and-the-deathly-hallows-part-1-437302.zip" "dwd01.zip" "SUBDL.com harry.potter.and.the.deathly.hallows.part.21950411.zip" "hp/" "monoid/" "dwd01/" "archlinux-2024.Rib04mpN.04.01-x86_64.iso.part" "stb_image_write.cpp" "andale32.exe" "Inconsolata-g for Powerline.otf" "Harry.Potter.And.The.Order.Of.The.Phoenix.English-WWW.MY-SUBS.CO.srt" "pnghextobdf.cpp" "ubuntu-23.10.1-desktop-amd64.iso" "pnghexreadwrite.cpp" "pnghextopnghex.cpp" "tails/" "hex/" "../" "iosevka/" "archlinux-2024.04.01-x86_64.iso" "Screen Shot 2024-04-18 at 19.48.17.png" "Harry.Potter.And.The.Deathly.Hallows.Part.2.PROPER.1080p.BluRay.X264-BLOW.srt" "kissinger/" "wallpaperflare.com_wallpaper(1).jpg" "png/" "TerminalUserInput.pas" "sol1.png")
+
+ ("/home/insane/Main/programming/python-lang/" (26151 30747 965558 389000) "file-io/" "BIG_O/" "OOPs/" "DSA_2/" "./" "Generators/" "Decorators/" "DSA/" "interpretor/" "Closures/" "os-module/" "../" "conways_game_of_life/")
+
+ ("/home/insane/Main/" (26154 31854 942958 88000) "DukeJava/" "fp/" "DukeWebDev/" "college-work/" "scripting/" "OSSU/" "test/" "programming/" "TOP/" "my-" "./" "duke/" "Wallpapers/" "webdev/" ".filen.trash.local/" "pywal-apps/" "references/" "CollegeWork/" "pgp-tutorial/" "my-websites/" "nand2tetris/" "../" "books/" "the-odin-project/")
 
  ("/home/insane/Main/programming/python-lang/file-io/" (26152 14336 966209 291000) "test2.txt" "./" "main.py" "test4.txt" "../" "test3.txt" "test.txt")
 
  ("/home/insane/Main/books/" (26135 60695 0 0) "./" "C_ProgrammingAModernApproach_2ndEdition_KNK_Z-Library.pdf" "Programming Principles and (Z-Library).pdf" "ProgrammingfromtheGround_Z-Library.chm" "TLCL-19.01.pdf" "CProgrammingAbsoluteBeginnersGuide3rdEditio.424140197.pdf" "sicp.pdf" ".filen.trash.local/" "TheCProgrammingLanguage_2ndEd_ANSI-C_BrianW-Kernighan_DennisM-Ritchie_Z-Library.pdf" "Programming in Lua 4th Edition.pdf" "Computer Networking _ A Top Down Approach, 7th, converted.pdf" "../" "J24ComputerNetworkAttacksastudy.pdf" "Programming Principles and (Z-Library).epub")
-
- ("/home/insane/" (26152 45838 732367 534000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".openjfx/" ".templateengine/" "wau2/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".Xresources.bak" ".bash_history" ".xinitrc" ".bluej/" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" ".node_repl_history" "README.md" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".npm/" "wau/" "Templates/" ".gtkrc-2.0" "Desktop/" ".steampath" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".steam/" ".wget-hsts" ".mozilla/" ".zcompdump" ".phoenix-code/" ".nimble/" ".dmrc" ".dotfiles/" ".bash_history-00754.tmp" ".nvidia-settings-rc" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".fehbg" ".ServiceHub/" "Videos/" ".steampid" ".insane/" ".gnupg/" "Public/")
 
  ("/home/insane/Main/OSSU/intro-cs/recursion/" (26150 18053 402431 74000) "./" "02.py" "main.c" "01.py" "03.py" "test.py" "a.out" "../" "04.py" "stack.c")
 
