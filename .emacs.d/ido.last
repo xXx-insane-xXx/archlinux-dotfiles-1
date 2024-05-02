@@ -20,7 +20,7 @@
  ("/home/insane/Main/the-odin-project/" . "foundations-course/")
  ("/home/insane/Main/OSSU/intro-cs/" . "mit-6.0001/")
  ("/home/insane/Main/OSSU/" . "intro-cs/")
- ("/home/insane/Main/" . "OSSU/")
+ ("/home/insane/Main/" . "scripting/")
  ("/home/insane/" . "Main/")
 )
 
@@ -91,29 +91,29 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-07/" (26156 65147 569679 92000) "./" "01.py" "../")
+
+ ("/home/insane/" (26162 21028 12873 290000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".bash_history-00725.tmp" ".w3m/" ".openjfx/" ".templateengine/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".Xresources.bak" ".bash_history" ".conf/" ".xinitrc" ".bluej/" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" ".node_repl_history" "README.md" ".bash_history-01322.tmp" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".npm/" "Templates/" ".gtkrc-2.0" "Desktop/" ".steampath" ".histfile" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".steam/" ".wget-hsts" ".mozilla/" ".asc" ".zcompdump" ".ICEauthority" ".phoenix-code/" ".nimble/" ".dmrc" ".dotfiles/" ".bash_history-00754.tmp" ".nvidia-settings-rc" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".android/" ".fehbg" ".ServiceHub/" "Videos/" ".steampid" ".insane/" ".gnupg/" "Public/")
+
+ ("/home/insane/Main/scripting/" (26155 7209 657300 983000) "conditionals.sh" "./" "basic_math.sh" "variables2.sh" "date.sh" "helloworld.sh" "../" "variables.sh" "myscript.sh")
+
+ ("/home/insane/Main/" (26159 44725 694450 314000) "DukeJava/" "fp/" "DukeWebDev/" "expenses/" "college-work/" "scripting/" "OSSU/" "test/" "programming/" "TOP/" "./" "duke/" "Wallpapers/" "webdev/" ".filen.trash.local/" "pywal-apps/" "references/" "CollegeWork/" "pgp-tutorial/" "my-websites/" "nand2tetris/" "../" "books/" "the-odin-project/")
+
  ("/home/insane/Main/programming/self-projects/python/11-pacman-qdt/pacman-qdt-remover/" (26156 44042 409428 508000) "./" "main.py" ".git/" "../" ".gitignore")
 
  ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/ps02/" (26156 36182 655325 7000) "./" "hangman.py" "words.txt" "../" "MIT6_0001F16_Pset2.pdf")
-
- ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-07/" (26156 35198 400793 69000) "./" "../")
 
  ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/week02/02-printf/" (26156 34356 486574 409000) "./" "main.c" "../" "test.txt")
 
  ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/test/" (26156 24918 57128 124000) "./" "../")
 
- ("/home/insane/" (26156 22879 349032 483000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".bash_history-00725.tmp" ".openjfx/" ".templateengine/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".Xresources.bak" ".bash_history" ".xinitrc" ".bluej/" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" ".node_repl_history" "README.md" ".bash_history-01322.tmp" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".npm/" "Templates/" ".gtkrc-2.0" "Desktop/" ".steampath" ".histfile" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".steam/" ".wget-hsts" ".mozilla/" ".asc" ".zcompdump" ".ICEauthority" ".phoenix-code/" ".nimble/" ".dmrc" ".dotfiles/" ".bash_history-00754.tmp" ".nvidia-settings-rc" ".vscode/" "r2" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".android/" ".fehbg" ".ServiceHub/" "Videos/" ".steampid" ".insane/" ".gnupg/" "Public/")
-
  ("/home/insane/.emacs.d/" (26155 20026 6417 864000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
 
  ("/home/insane/Main/programming/self-projects/python/pacmanQDT/" (26155 20025 999751 42000) "file" "test" "remove.txt" "./" "main.py" "test.py" "../")
 
- ("/home/insane/Main/scripting/" (26154 15065 852599 256000) "./" "basic_math.sh" "variables2.sh" "date.sh" "helloworld.sh" "../" "variables.sh" "myscript.sh")
-
  ("/home/insane/Downloads/" (26154 46106 277256 727000) "readme.cpp" "deeptesting-releaseexp-tmo-us.apk" "Screen Shot 2024-04-18 at 19.47.04.png" "jpg2png.zip" "stb_image.cpp" "test.go" "codepagedatabase.cpp" "nerd-patcher/" "./" "ubuntu-23.fJxswdAH.10.1-desktop-amd64.iso.part" "gpa-0.10.0.tar.bz2" "charcounter.cpp" "Screen Shot 2024-04-18 at 19.47.59.png" "Screen Shot 2024-04-18 at 19.47.35.png" "Improving Listening Comprehension.pdf" "Harry Potter and the Deathly Hallows Part-1[2011]BrRip-H264-[KK].srt" "SUBDL harry-potter-and-the-deathly-hallows-part-1-437302.zip" "dwd01.zip" "SUBDL.com harry.potter.and.the.deathly.hallows.part.21950411.zip" "hp/" "monoid/" "dwd01/" "archlinux-2024.Rib04mpN.04.01-x86_64.iso.part" "stb_image_write.cpp" "andale32.exe" "Inconsolata-g for Powerline.otf" "Harry.Potter.And.The.Order.Of.The.Phoenix.English-WWW.MY-SUBS.CO.srt" "pnghextobdf.cpp" "ubuntu-23.10.1-desktop-amd64.iso" "pnghexreadwrite.cpp" "pnghextopnghex.cpp" "tails/" "hex/" "../" "iosevka/" "archlinux-2024.04.01-x86_64.iso" "Screen Shot 2024-04-18 at 19.48.17.png" "Harry.Potter.And.The.Deathly.Hallows.Part.2.PROPER.1080p.BluRay.X264-BLOW.srt" "kissinger/" "wallpaperflare.com_wallpaper(1).jpg" "png/" "TerminalUserInput.pas" "sol1.png")
 
  ("/home/insane/Main/programming/python-lang/" (26151 30747 965558 389000) "file-io/" "BIG_O/" "OOPs/" "DSA_2/" "./" "Generators/" "Decorators/" "DSA/" "interpretor/" "Closures/" "os-module/" "../" "conways_game_of_life/")
-
- ("/home/insane/Main/" (26154 31854 942958 88000) "DukeJava/" "fp/" "DukeWebDev/" "college-work/" "scripting/" "OSSU/" "test/" "programming/" "TOP/" "my-" "./" "duke/" "Wallpapers/" "webdev/" ".filen.trash.local/" "pywal-apps/" "references/" "CollegeWork/" "pgp-tutorial/" "my-websites/" "nand2tetris/" "../" "books/" "the-odin-project/")
 
  ("/home/insane/Main/programming/python-lang/file-io/" (26152 14336 966209 291000) "test2.txt" "./" "main.py" "test4.txt" "../" "test3.txt" "test.txt")
 
