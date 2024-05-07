@@ -164,7 +164,6 @@ set $bg #000000
 # class                 border  	backgr.     text    indicator   child_border
 client.focused          $fg         $bg         $fg     $fg         $fg 
 
-
 # #----i3Blocks---# #
 bar
 {
@@ -224,7 +223,7 @@ bindsym $mod+Shift+semicolon exec --no-startup-id "i3lock -i ~/Main/Wallpapers/f
 #bindsym $mod+shift+M exec --no-startup-id "alacritty  --class floating_terminal -e ~/.config/i3/Scripts/fzf_theme_chooser.sh" 
 # bindsym $mod+shift+M exec --no-startup-id ~/.config/i3/Scripts/sxiv_theme_chooser.sh
 # bindsym $mod+shift+N exec --no-startup-id "~/.config/i3/Scripts/random_pywal_theme_generator.sh" 
-bindsym $mod+shift+M exec --no-startup-id "~/.config/i3/Scripts/wallpaper_chooser.sh"
+bindsym $mod+shift+W exec --no-startup-id "~/.config/i3/Scripts/wallpaper_chooser.sh"
 bindsym $mod+shift+a exec --no-startup-id ~/.config/i3/Scripts/toggle_alacritty_opacity.sh
 
 # Group 2
@@ -233,6 +232,8 @@ bindsym $mod+shift+b exec --no-startup-id boomer
 
 # Special very much (I love emacs)
 bindsym $mod+ctrl+Return exec --no-startup-id emacs
+
+
 
 
 # #---Autostart Applications---# #

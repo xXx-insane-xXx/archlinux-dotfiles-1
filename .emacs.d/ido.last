@@ -20,12 +20,13 @@
  ("/home/insane/Main/the-odin-project/" . "foundations-course/")
  ("/home/insane/Main/OSSU/intro-cs/" . "mit-6.0001/")
  ("/home/insane/Main/OSSU/" . "intro-cs/")
- ("/home/insane/Main/" . "scripting/")
+ ("/home/insane/Main/" . "OSSU/")
  ("/home/insane/" . "Main/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/insane/.emacs.d/"
  "/home/insane/Main/programming/self-projects/python/pacmanQDT/"
  "/home/insane/Main/programming/"
  "/home/insane/Main/programming/python-lang/file-io/"
@@ -61,7 +62,6 @@
  "/home/insane/Main/programming/self-projects/python/09-custom-stack-implementation/get-stacked/"
  "/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-05/"
  "/home/insane/Main/college-work/MGT/"
- "/home/insane/.emacs.d/"
  "/home/insane/Main/OSSU/java/05-typecasting/"
  "/home/insane/Main/OSSU/java/04-literals/"
  "/home/insane/Main/OSSU/java/datatypes/"
@@ -77,6 +77,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
  "main.py"
  "main.c"
  "test.txt"
@@ -86,14 +87,27 @@
  "main.pas"
  "helloworld.pas"
  "helloworld.pp"
- "#helloworld.fpc#"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-07/" (26156 65147 569679 92000) "./" "01.py" "../")
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-10/" (26168 41982 651692 695000) "./" "../")
 
- ("/home/insane/" (26162 21028 12873 290000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".bash_history-00725.tmp" ".w3m/" ".openjfx/" ".templateengine/" ".pki/" "Pictures/" "Music/" ".xonotic/" ".Xresources.bak" ".bash_history" ".conf/" ".xinitrc" ".bluej/" ".cache/" ".Xresources" "./" ".themes/" ".nuget/" ".config/" ".Xauthority" ".node_repl_history" "README.md" ".bash_history-01322.tmp" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".npm/" "Templates/" ".gtkrc-2.0" "Desktop/" ".steampath" ".histfile" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".steam/" ".wget-hsts" ".mozilla/" ".asc" ".zcompdump" ".ICEauthority" ".phoenix-code/" ".nimble/" ".dmrc" ".dotfiles/" ".bash_history-00754.tmp" ".nvidia-settings-rc" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".android/" ".fehbg" ".ServiceHub/" "Videos/" ".steampid" ".insane/" ".gnupg/" "Public/")
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/" (26163 29388 550385 539000) "lecture-01/" "lecture-05/" "./" "lecture-08/" "lecture-07/" "lecture-06/" "ps02/" "lecture-04/" "ps01/" ".venv/" "../" "lecture-03/" "ps0/" "lecture-02/")
+
+ ("/home/insane/" (26168 41127 298080 392000) ".dotnet/" ".viminfo" ".zshrc" ".ssh/" ".var/" ".bash_history-00725.tmp" ".w3m/" ".openjfx/" ".templateengine/" "requirements.txt" ".pki/" "Pictures/" "Music/" ".xonotic/" ".Xresources.bak" ".bash_history" ".conf/" ".xinitrc" ".bluej/" ".cache/" ".Xresources" "./" ".aspnet/" ".themes/" ".nuget/" ".config/" ".Xauthority" ".node_repl_history" "README.md" ".bash_history-01322.tmp" ".bashrc" "Main/" ".nv/" "Downloads/" ".ollama/" ".npm/" "Templates/" ".gtkrc-2.0" "Desktop/" ".steampath" ".histfile" "Documents/" ".bash_profile" ".gitconfig" ".emacs.d/" ".steam/" ".wget-hsts" ".mozilla/" ".asc" ".zcompdump" ".ICEauthority" ".phoenix-code/" ".nimble/" ".dmrc" ".dotfiles/" ".bash_history-00754.tmp" ".nvidia-settings-rc" ".vscode/" "../" ".local/" ".ipython/" ".secrets/" ".pulse-cookie" ".icons/" ".python_history" ".vimrc" ".omnisharp/" "Stuff/" ".android/" ".fehbg" ".ServiceHub/" "Videos/" ".steampid" ".insane/" ".gnupg/" "Public/")
+
+ ("/home/insane/.emacs.d/" (26165 47096 197474 402000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
+
+ ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/recipes/" (26165 46474 994977 18000) "./" "pizza.html" "burger.html" "#burger.html#" "lasagna.html" "pasta.html" "../" "style.css" ".#burger.html")
+
+ ("/home/insane/Main/the-odin-project/" (26119 9599 0 0) "./" "foundations-course/" "../")
+
+ ("/home/insane/Main/the-odin-project/foundations-course/css-foundations/box-model/11/" (26164 47482 27786 994000) "./" "../")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-08/" (26163 29388 550385 539000) "./" "../")
+
+ ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/lecture-07/" (26163 27793 681139 27000) "./" "01.py" "../")
 
  ("/home/insane/Main/scripting/" (26155 7209 657300 983000) "conditionals.sh" "./" "basic_math.sh" "variables2.sh" "date.sh" "helloworld.sh" "../" "variables.sh" "myscript.sh")
 
@@ -106,8 +120,6 @@
  ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/week02/02-printf/" (26156 34356 486574 409000) "./" "main.c" "../" "test.txt")
 
  ("/home/insane/Main/duke/C-programming/01-programmingFundamentals/test/" (26156 24918 57128 124000) "./" "../")
-
- ("/home/insane/.emacs.d/" (26155 20026 6417 864000) ".mc-lists.el" ".cache/" "./" "elgrep-data.el" "kkcrc" "init.el" "auto-save-list/" "url/" "init.el~" "multisession/" "ido.last~" "elpa/" "tutorial/" "../" "eshell/" "ido.last" "transient/" "games/")
 
  ("/home/insane/Main/programming/self-projects/python/pacmanQDT/" (26155 20025 999751 42000) "file" "test" "remove.txt" "./" "main.py" "test.py" "../")
 
@@ -149,8 +161,6 @@
 
  ("/home/insane/Main/my-websites/queries/" (26147 31886 249774 205000) "./" "../")
 
- ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/" (26141 9167 317196 603000) "lecture-01/" "lecture-05/" "./" "lecture-06/" "ps02/" "lecture-04/" "ps01/" ".venv/" "../" "lecture-03/" "ps0/" "lecture-02/")
-
  ("/home/insane/Main/programming/cs50/week3/" (26120 58521 0 0) "binary_search.c" "phone_book.c~" "linear_search_v2.c~" "./" "linear_search.c~" "selection_sort.c" "main.c" "linear_search.c" "phone_book.c" "a.out" "../" "main" "selection_sort.c~" "Makefile" "linear_search_v2.c")
 
  ("/home/insane/Main/OSSU/intro-cs/mit-6.0001/ps01/" (26124 48576 0 0) "ps1a.py" "./" "ps1c.py" "ps1b.py" "../" "ps1.pdf")
@@ -172,8 +182,6 @@
  ("/home/insane/Main/the-odin-project/foundations-course/css-foundations/the-cascade/01/" (26129 51859 0 0) "index.html" "./" "../" "style.css")
 
  ("~/Main/the-odin-project/foundations-course/css-foundations/the-cascade/01/" (26129 51859 0 0) "index.html" "./" "../" "style.css")
-
- ("/home/insane/Main/the-odin-project/foundations-course/repos/odin-recipes/recipes/" (26129 51393 0 0) "./" "pizza.html" "burger.html" "lasagna.html" "pasta.html" "../" "style.css")
 
  ("/home/insane/Main/programming/self-projects/python/10-stack-fun/" (26129 35932 0 0) "./" "main.py" "../")
 
@@ -276,8 +284,6 @@
  ("/home/insane/Main/the-odin-project/foundations-course/repos/" (26117 4250 892108 491000) "../" "./" "odin-recipes/")
 
  ("/home/insane/Main/the-odin-project/foundations-course/" (26119 21372 984787 380000) "../" "./" "repos/" "css-exercises_the-odin-project/" "css-foundations/" "the-foundations/")
-
- ("/home/insane/Main/the-odin-project/" (26119 9599 619899 191000) "foundations-course/" "../" "./")
 
  ("/home/insane/Main/programming/cs50/" (26111 31054 612736 66000) "week3/" "../" "./" "week2/")
 )
