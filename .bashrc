@@ -1,8 +1,11 @@
 
-##---- cowsay ----##
-cowsay -f satanic Hey!
+##---- Startup ----##
 
+if command -v pyjoke &>/dev/null; then
+    cowsay -f satanic $(pyjoke) | lolcat
+fi
 
+#fastfetch -c neofetch
 
 
 ##---- Default Stuff ----##
@@ -28,6 +31,7 @@ function parse_git_branch {
 # set pronpt style
 PS1='[\u@\h \W]$(parse_git_branch)\[\][ ]\n ~ '
 
+force_color_prompt=yes
 
 
 
@@ -82,3 +86,19 @@ export PYTHONPATH=$PYTHONPATH:/home/insane/.insane/PythonCustomModules
 
 #---- Zoxoide (to be at end) -----#
 eval "$(zoxide init bash)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/insane/Main/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/insane/Main/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/insane/Main/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/insane/Main/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

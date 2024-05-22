@@ -9,13 +9,15 @@ set_wallpaper() {
 while read file
 do
         case "$1" in
-        "C-d")
-                mv "$file" ~/.trash ;;
+        #"C-d")
+        #       mv "$file" ~/.trash ;;
         "C-r")
                 convert -rotate 90 "$file" "$file" ;;
         "C-c")
                 echo -n "$file" | xclip -selection clipboard ;;
 		"C-f")
 				set_wallpaper "$file" ;;
+        "C-d")
+                file "$file" ;;
         esac
 done

@@ -18,25 +18,25 @@ call plug#begin()
     Plug 'dylanaraps/wal.vim'   
     Plug 'https://github.com/thimc/gruber-darker.nvim'
     Plug 'Mofiqul/adwaita.nvim'
-
-    Plug 'preservim/nerdtree'
-
-
-    " Indent line
-    Plug 'Yggdroot/indentLine'  
-
+ 
+    Plug 'preservim/nerdtree' " Nerd tree
+    Plug 'Yggdroot/indentLine' " Indent line 
+    Plug 'neoclide/coc.nvim', {'branch': 'release'} " Coc
+    Plug 'vim-airline/vim-airline' " Airline
+    Plug 'https://github.com/tpope/vim-commentary' " for commenting gcc and gc
+    Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
+    Plug 'https://github.com/tc50cal/vim-terminal' " Vim Termina
 
 call plug#end()
 
-"colorscheme moonfly
-colorscheme adwaita
+colorscheme tokyonight
+"colorscheme adwaita
 
 
 " Nerd tree
-nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-z> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
+nnoremap <C-f> :NERDTreeFocus<CR>
 let g:NERDTreeFileLines = 1
 
 
@@ -47,3 +47,6 @@ let g:indentLine_char = '|'
 let g:vim_json_conceal=0
 let g:markdown_syntax_conceal=0
 
+
+" Airline
+let g:airline_theme = 'moonfly'

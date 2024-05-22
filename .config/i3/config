@@ -150,14 +150,6 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 
 # #----i3colors----# #
-# Set colors from Xresources
-# Change 'color7' and 'color2' to whatever colors you want i3 to use 
-# from the generated scheme.
-# NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
-# it fails to get colors from Xresources.
-# set_from_resource $fg i3wm.color6 #f0f0f0
-# set_from_resource $bg i3wm.color0 #f0f0f0
-
 set $fg #ffffff
 set $bg #000000
 
@@ -168,9 +160,7 @@ client.focused          $fg         $bg         $fg     $fg         $fg
 bar
 {
         status_command i3blocks -c ~/.config/i3/i3blocks/i3blocks.conf
-        #font pango: Iosevka Semibold 10
 		font pango: PrasevkaIomataMNLv2 Nerd Font Semibold 10 
-		#font pango: Envy Code R 10 
         separator_symbol "|"
 		colors
 		{
@@ -188,12 +178,7 @@ bar
 # #---Additional commands----# #
 #for_window [class="^.*"] border pixel 2
 for_window [class="floating_terminal"] floating enable
-
-
-# #---Custom Variables----# #
-# set $wallpaper1 ~/.config/i3/Scripts/random_pywal_theme_generator.sh
-# set $wallpaper2 ~/.config/i3/Scripts/pywal_last_wallpaper.sh
-
+for_window [class="Understanding GD script"] floating enable
 
 # #----Basic Key binds----# #
 bindsym $mod+Escape	workspace prev
@@ -212,42 +197,36 @@ bindsym $mod+Shift+o resize shrink width 1 px or 1 ppt
 
 
 # #----Applications Key Binds----# #
-# Basic - Group 0
+set $Script /home/insane/.config/i3/scripts
+
+# Program 
 bindsym $mod+Return exec --no-startup-id alacritty 
 bindsym $mod+shift+Return exec --no-startup-id tilda
 #bindsym $mod+shift+Return exec --no-startup-id alacritty -e tmux
 bindsym $mod+d exec --no-startup-id dmenu_run -fn "PrasevkaIomataMNLv2 Nerd Font" -nb "$fg" -nf "$bg" -sb "$bg" -sf "#ffffff" 
-bindsym $mod+Shift+semicolon exec --no-startup-id "i3lock -i ~/Main/Wallpapers/fori3lock/02-i302.png
-
-# Group 1
-#bindsym $mod+shift+M exec --no-startup-id "alacritty  --class floating_terminal -e ~/.config/i3/Scripts/fzf_theme_chooser.sh" 
-# bindsym $mod+shift+M exec --no-startup-id ~/.config/i3/Scripts/sxiv_theme_chooser.sh
-# bindsym $mod+shift+N exec --no-startup-id "~/.config/i3/Scripts/random_pywal_theme_generator.sh" 
-bindsym $mod+shift+W exec --no-startup-id "~/.config/i3/Scripts/wallpaper_chooser.sh"
-bindsym $mod+shift+a exec --no-startup-id ~/.config/i3/Scripts/toggle_alacritty_opacity.sh
-
-# Group 2
+bindsym $mod+Shift+semicolon exec --no-startup-id "i3lock -i /home/insane/Main/Wallpapers/dmc/04dmc04.png 
 bindsym Print exec --no-startup-id flameshot gui
-bindsym $mod+shift+b exec --no-startup-id boomer
+
+# Scripts
+bindsym $mod+ctrl+1 exec --no-startup-id $Script/sxiv_theme_chooser.sh 
+bindsym $mod+ctrl+2 exec --no-startup-id $Script/toggle_alacritty_opacity.sh
+bindsym $mod+ctrl+3 exec --no-startup-id boomer
+bindsym $mod+ctrl+4 exec --no-startup-id $Script/curl_share.sh
 
 # Special very much (I love emacs)
 bindsym $mod+ctrl+Return exec --no-startup-id emacs
 
 
-
-
 # #---Autostart Applications---# #
 # exec --no-startup-id $wallpaper2
-exec --no-startup-id feh --bg-scale "$(cat ~/.config/i3/Scripts/feh_last_wallpaper.sh)"
+exec --no-startup-id ~/.fehbg 
 exec --no-startup-id ~/Stuff/AppImages/filen_x86_64.AppImage
-
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id ~/.config/i3/Scripts/filen.sh
 exec_always --no-startup-id blueman-applet
 exec_always --no-startup-id dunst
 exec --no-startup-id /usr/lib/kdeconnectd
-
 
 
 # #----GAPS----# #
